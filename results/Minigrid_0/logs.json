@@ -1,0 +1,9 @@
+{
+    "counting_abs_states":8,
+    "counting_auto_cond?":false,
+    "counting_rews_mean":-29.714,
+    "counting_steps_mean":31.6354,
+    "counting_succs":"1672/5000",
+    "counting_time":"00:03.38",
+    "score_time":"00:00.00"
+}

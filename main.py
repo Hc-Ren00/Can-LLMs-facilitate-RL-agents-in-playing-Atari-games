@@ -2,6 +2,7 @@ from stable_baselines3.common.env_util import make_vec_env
 from student_policy import *
 from teacher_policy import *
 from sampleEnv import MazeGameEnv
+import Ranking-Policy-Decisions-Master
 
 class Game:
     def __init__(self, maze,):
@@ -36,6 +37,7 @@ class Game:
             print(tt)
             break
 
+torch.cuda.is_available = lambda: False
 maze = [
     ['S', '.', '.'],
     ['.', 'B', '.'],

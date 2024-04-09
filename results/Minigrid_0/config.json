@@ -1,0 +1,22 @@
+{
+    "abst_type":-1,
+    "cond_name":"score0.8",
+    "env_name":"MiniGrid-SimpleCrossingS9N1-v0",
+    "env_seed":1234,
+    "max_steps":-1,
+    "mut_prob":0.2,
+    "n_inc":200,
+    "n_runs":5000,
+    "n_test":100,
+    "no_det":false,
+    "pol_d_name":"lazy",
+    "pol_name":"minigrid_good",
+    "score_types":[
+        "ochiai",
+        "tarantula",
+        "zoltar",
+        "wongII",
+        "freqVis",
+        "rand"
+    ]
+}

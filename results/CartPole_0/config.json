@@ -1,0 +1,22 @@
+{
+    "abst_type":-1,
+    "cond_name":"score200",
+    "env_name":"CartPole-v0",
+    "env_seed":1234,
+    "max_steps":-1,
+    "mut_prob":0.4,
+    "n_inc":100,
+    "n_runs":5000,
+    "n_test":100,
+    "no_det":false,
+    "pol_d_name":"lazy",
+    "pol_name":"CartPole_good",
+    "score_types":[
+        "ochiai",
+        "tarantula",
+        "zoltar",
+        "wongII",
+        "freqVis",
+        "rand"
+    ]
+}
