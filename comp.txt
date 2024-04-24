@@ -1,0 +1,22 @@
+5000
+WITHOUT ----
+-----test returned -----: [10.] 12
+testing------>>>>>.
+-----test returned -----: [10.] 4
+testing------>>>>>.
+-----test returned -----: [10.] 8
+testing------>>>>>.
+-----test returned -----: [10.] 5
+testing------>>>>>.
+-----test returned -----: [10.] 13
+testing------>>>>>.
+-----test returned -----: [10.] 8
+testing------>>>>>.
+-----test returned -----: [10.] 6
+testing------>>>>>.
+-----test returned -----: [10.] 4
+testing------>>>>>.
+-----test returned -----: [10.] 6
+testing------>>>>>.
+-----test returned -----: [10.] 7
+

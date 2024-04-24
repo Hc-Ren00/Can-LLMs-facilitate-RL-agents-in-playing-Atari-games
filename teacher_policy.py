@@ -16,6 +16,7 @@ class teacher_policy():
         self.client = OpenAI(api_key=os.environ["KEY"])
 
     def find_next(self, state):
+        print(state)
         output = []
         c, r = state
         if c-1 < 0 or (c-1 == 1 and r == 1):
@@ -39,10 +40,10 @@ class teacher_policy():
     # obs to natural language
     def RL2LLM(self, state):
         if state in self.saved_teacher_recommendations:
-            return self.saved_teacher_recommendations[state],True
+            return self.saved_teacher_recommendations[state],False
         up, down, left, right = self.find_next(state)
-        context = f'You are currently at {state}.\nMove up will reach {up}, move down will reach {down}, move left will reach {left}, move right will reach {right}.\nCan you decided on the best action, please give me the answer just in the format of (action: <action ID>).'
-        return context,False
+        context = f'You are currently at {state}.\nMove up will reach {up}, move down will reach {down}, move left will reach {left}, move right will reach {right}.\nWhat\'s the best action you should take? Please give me the answer just in the format of (action: <action ID>).'
+        return context,True
 
     def return_action(self,response):
         index = response.find("(action: ")
@@ -80,8 +81,9 @@ class teacher_policy():
     def prompt(self, states):
         plans = {}
         for state in states:
+            state = (int(state[0]),int(state[1]))
             text,need_to_prompt = self.RL2LLM(state)
-            print(f"Return value from RL2LLM - {text}")
+            print(f"Return value from RL2LLM - {text,need_to_prompt}")
             if need_to_prompt:
                 action = self.query_codex(text)
                 if state not in self.saved_teacher_recommendations:
@@ -90,5 +92,6 @@ class teacher_policy():
             else:
                 action = text
             plans[state]=action
-        return plans
+        print(plans)
+        return self.saved_teacher_recommendations
     

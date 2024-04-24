@@ -33,8 +33,8 @@ class ActorCritic(nn.Module):
         mu    = self.actor(x)
         lol = Categorical(logits=f.log_softmax(mu))
         #print(f"Another impl - {lol.sample()}")
-        std   = self.log_std.exp().expand_as(mu)
+        #std   = self.log_std.exp().expand_as(mu)
         #print(mu,std)
-        dist  = Normal(mu, std)
+        #dist  = Normal(mu, std)
         #print(dist,dist.sample())
         return lol, value

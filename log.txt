@@ -1,0 +1,6 @@
+pygame 2.5.2 (SDL 2.28.3, Python 3.9.6)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+original state: [0. 0.]
+tensor([0., 0.])
+[0.0, 0.0]
+tensor(3) 3
