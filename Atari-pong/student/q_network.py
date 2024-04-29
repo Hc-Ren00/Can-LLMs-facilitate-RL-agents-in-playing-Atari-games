@@ -38,8 +38,9 @@ class Qtable(nn.Module):
         return value
     
 class QNetwork:
-    def __init__(self, num_inputs, num_outputs, hidden_size):
-        self.model = Qtable(num_inputs, num_outputs, hidden_size)
+    def __init__(self, num_inputs, num_outputs, hidden_size, device):
+        self.device = device
+        self.model = Qtable(num_inputs, num_outputs, hidden_size).to(device)
         self.criterion = nn.MSELoss()
         self.optimizer = torch.optim.RMSprop(self.model.parameters(), lr=1e-4)
     
@@ -47,7 +48,7 @@ class QNetwork:
         self.optimizer.zero_grad()
         outputs = self.model.forward(state)
         target_distribution = outputs[:, action]  # Extract the target distribution
-        loss = self.criterion(target_distribution, torch.tensor([q_value], dtype=torch.float32))  # Calculate the loss only for the target node
+        loss = self.criterion(target_distribution, torch.tensor([q_value], dtype=torch.float32).to(self.device))  # Calculate the loss only for the target node
         loss.backward()  # Backward pass
         self.optimizer.step()    
 

@@ -12,13 +12,13 @@ def preprocess_image_breakout(image):
     tens = tens.unsqueeze(0)
     return tens, np.reshape(image, breakout_inputdim)
 
-def preprocess_image_pong(image):
+def preprocess_image_pong(image, device):
     pong_inputdim = (1, 80, 80)
     image = image[35:195]  # crop
     image = image[::2, ::2, 0]  # downsample by factor of 2
     image[image == 144] = 0  # erase background (background type 1)
     image[image == 109] = 0  # erase background (background type 2)
     image[image != 0] = 1  # everything else (paddles, ball) just set to 1
-    tens = TF.to_tensor(image)
+    tens = TF.to_tensor(image).to(device)
     tens = tens.unsqueeze(0)
     return tens, np.reshape(image, pong_inputdim)

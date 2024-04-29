@@ -16,6 +16,7 @@ class teacher_policy():
         self.client = OpenAI(api_key=os.environ["KEY"])
 
     def create_prompt(self, info, prev_info):
+        print(info, prev_info)
         player_coords = (info['player_x'],info['player_y'])
         enemy_coords = (info['enemy_x'],info['enemy_y'])
         ball_pos = (info['ball_x'],info['ball_y'])
@@ -24,8 +25,9 @@ class teacher_policy():
         return output
     # obs to natural language
     def RL2LLM(self, info, prev_info):
-        # if state in self.saved_teacher_recommendations:
-        #     return self.saved_teacher_recommendations[state],False
+        key = str(info)+"#"+str(prev_info)
+        if key in self.saved_teacher_recommendations:
+            return self.saved_teacher_recommendations[key],False
         context = self.create_prompt(info, prev_info)
         #context = f'You are currently at {state}.\nMove up will reach {up}, move down will reach {down}, move left will reach {left}, move right will reach {right}.\nWhat\'s the best action you should take? Please give me the answer just in the format of (action: <action ID>).'
         return context,True
@@ -66,14 +68,14 @@ class teacher_policy():
     
     def prompt(self, states):
         plans = {}
-        for state in states:
-            #state = (int(state[0]),int(state[1]))
-            text,need_to_prompt = self.RL2LLM(state[0],state[1])
-            print(f"Return value from RL2LLM - {text,need_to_prompt}")
+        for x,y in states:
+            text,need_to_prompt = self.RL2LLM(x,y)
+            #print(f"Return value from RL2LLM - {text,need_to_prompt}")
             if need_to_prompt:
                 action = self.query_codex(text)
-                # if state not in self.saved_teacher_recommendations:
-                #     self.saved_teacher_recommendations[state] = action
+                key = str(x)+"#"+str(y)
+                if key not in self.saved_teacher_recommendations:
+                    self.saved_teacher_recommendations[key] = action
                 #print(f"Teacher LLM returned: plans - {plans}")
             else:
                 action = text
