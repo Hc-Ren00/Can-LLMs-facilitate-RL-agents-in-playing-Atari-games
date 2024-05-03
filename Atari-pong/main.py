@@ -14,6 +14,8 @@ class Game:
         self.student = None
         self.teacher = None
         self.total_timesteps = 1000000
+        self.x=[]
+        self.y=[]
         use_cuda = torch.cuda.is_available()
         self.device = torch.device("cuda" if use_cuda else "cpu")
     
@@ -92,11 +94,13 @@ class Game:
         self.student.local_q_buffer = {}
         last_info = ''
         while(tt<self.total_timesteps):
+            self.x.append(tt)
+            self.y.append(np.mean([self.student.test_env() for _ in range(5)]))
             last_info=self.student.train(tt,last_info)
             print(f"========Training the student for {self.student.max_frames} steps============")
             struggling_state, curr_info, prev_info = self.return_most_imp_states(tt)
             self.student.local_q_buffer = {}
-            print("Querying the teacher --- ")
+            #print("Querying the teacher --- ")
             rec_action = self.teacher.prompt([(curr_info, prev_info)])
             key = (struggling_state,str(curr_info)+"#"+str(prev_info))
             if key not in self.student.teacher_recommendations:
@@ -123,7 +127,9 @@ game = Game(breakout_id)
 game.init_student_policy(1,6)
 game.init_teacher()
 game.train()
+print("Episodes -- ",game.student.episodes)
 print("teacher recommendations - ",len(game.student.teacher_recommendations))
+print(game.x,game.y)
 #print(game.student.visits.values())
 #print(game.student.data_points)
 #print(game.contribution_of_kick_start_loss)

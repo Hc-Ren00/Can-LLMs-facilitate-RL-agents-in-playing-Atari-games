@@ -16,7 +16,7 @@ class PPO:
         self.model = ActorCritic(num_inputs,num_outputs,hidden_size).to(device)
         self.optimizer = optim.Adam(self.model.parameters(), lr=lr)
         self.num_steps = num_steps
-        self.max_frames = 5000
+        self.max_frames = 10000
         self.struggling_states = set()
         self.teacher_recommendations = dict()
         self.test_rewards = [] 
@@ -46,6 +46,8 @@ class PPO:
         return torch.from_numpy(np.array(teacher_probs)).to(self.device)
     
     def compute_gae(self, next_value, rewards, masks, values, gamma=1, tau=0.95):
+        #initial state should be 
+        # v(s)  = reward + 
         values = values + [next_value]
         gae = 0
         returns = []
@@ -87,11 +89,15 @@ class PPO:
                 surr2 = torch.clamp(ratio, 1.0 - clip_param, 1.0 + clip_param).to(self.device) * advantage
 
                 actor_loss  = - torch.min(surr1, surr2).mean().to(self.device)
-                critic_loss = (return_ - value).pow(2).mean()
-
+                critic_loss = (return_ - value).pow(2).mean() # might not be super intuitive
+                # might not be return generated from the previous policy
                 if kickstarting_loss>0:
                     self.num_steps_with_kickstart_loss+=1
-                loss = 0.5 * critic_loss + actor_loss - 0.001 * entropy + 12*kickstarting_loss
+                #remove critic loss to debug
+                #print out each of the losses, to see which one is monotonically going down
+                #actor,critic is small and entropy is favoring it
+                # use wandb
+                loss = 0.5 * critic_loss + actor_loss - 0.001 * entropy# + 12*kickstarting_loss
                 #print(f"Total loss - {loss}")
 
                 self.optimizer.zero_grad()
@@ -206,6 +212,7 @@ class PPO:
             states    = torch.cat(states).to(self.device)
             #print(states.shape,states)
             actions   = torch.cat(actions).to(self.device)
+            #try to get rid of the value function
             advantage = returns - values
             #update q table
             #replace q-network
@@ -213,7 +220,7 @@ class PPO:
                 list_tensor = state1.tolist()
                 str_tensor = str(list_tensor)
                 if str_tensor not in self.local_q_buffer:
-                    self.local_q_buffer[str_tensor]={"q-values":{0:0,1:0,2:0,3:0}}
+                    self.local_q_buffer[str_tensor]={"q-values":{0:0,1:0,2:0,3:0,4:0,5:0}}
                 q_value = adv.tolist()[0]+value.tolist()[0]
                 self.local_q_buffer[str_tensor]["q-values"][action.tolist()]=adv.tolist()[0]+value.tolist()[0]
                 self.local_q_buffer[str_tensor]["info"] = information

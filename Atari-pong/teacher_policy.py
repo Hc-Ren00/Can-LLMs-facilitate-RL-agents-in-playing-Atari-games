@@ -16,7 +16,7 @@ class teacher_policy():
         self.client = OpenAI(api_key=os.environ["KEY"])
 
     def create_prompt(self, info, prev_info):
-        print(info, prev_info)
+        #print(info, prev_info)
         player_coords = (info['player_x'],info['player_y'])
         enemy_coords = (info['enemy_x'],info['enemy_y'])
         ball_pos = (info['ball_x'],info['ball_y'])
@@ -33,7 +33,7 @@ class teacher_policy():
         return context,True
 
     def return_action(self,response):
-        print("teacher returned - ", response)
+        #print("teacher returned - ", response)
         index = response.find("(action: ")
         action = response[index+9]
         #print(response,action)
