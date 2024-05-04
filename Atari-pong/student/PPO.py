@@ -191,6 +191,7 @@ class PPO:
                 frame_idx += 1
                 prev_info = info
                 if terminated:
+                    self.curr_state = self.env.reset()[0]
                     self.episodes+=1
                     prev_info=''
                 # if frame_idx%100==0:

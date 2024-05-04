@@ -1,0 +1,6 @@
+numpy==1.26.4
+openai==1.23.6
+Pillow==10.3.0
+python-dotenv==1.0.1
+torch==2.2.2
+torchvision==0.17.2

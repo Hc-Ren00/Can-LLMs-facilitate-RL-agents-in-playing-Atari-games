@@ -13,9 +13,10 @@ class Game:
         self.env = AtariARIWrapper(gym.make(game_id))#, obs_type = "grayscale")
         self.student = None
         self.teacher = None
-        self.total_timesteps = 1000000
+        self.total_timesteps = 10000
         self.x=[]
         self.y=[]
+        self.struggling_states_n = 0
         use_cuda = torch.cuda.is_available()
         self.device = torch.device("cuda" if use_cuda else "cpu")
     
@@ -49,35 +50,37 @@ class Game:
         struggling_qvalues=None
         sq=float('-inf')
         for s in q_table:
-            # maxq=0
-            # minq=0
-            # unexplored=False
-            # for a in q_table[s]:
-            #     q_value = q_table[s][a]
-            #     if q_value==0:
-            #         unexplored=True
-            #         break
-            #     else:
-            #         minq=min(minq,q_value)
-            #         maxq=max(maxq,q_value)
-            fstate = torch.tensor(ast.literal_eval(s)).unsqueeze(0).to(self.device)
-            q_values = self.student.q_network.model(fstate)
-            # if unexplored==True:
-            #     print(f"skipping state {s} due to it being unexplored")
-            #     continue
-            rangeq=torch.max(q_values)-torch.min(q_values).to(self.device)
-            #print(f"state {s} has range {rangeq} and visits {self.student.visits[s]}")
-            if s not in self.student.struggling_states and sq<rangeq:# and self.student.visits[s]>(frame_idx/10):
-                sq=rangeq
-                struggling_qvalues=q_values
-                struggling_state = s
-        #print(f"struggling state - {sq}, struggling q_values - {struggling_qvalues}, info - {q_table[struggling_state]['info']}, prev_info - {q_table[struggling_state]['prev_info']}")
-        #self.student.struggling_states.add((q_table[struggling_state]['info'],q_table[struggling_state]['prev_info']))
-        si = q_table[struggling_state]['info']
-        spi = q_table[struggling_state]['prev_info']
-        print("*******Collecting 1 important state**********")
-        return (struggling_state,si,spi)
-    
+            key = (s, str(q_table[s]["info"])+"#"+str(q_table[s]["prev_info"]))
+            if key not in self.student.teacher_recommendations:
+                fstate = torch.tensor(ast.literal_eval(s)).unsqueeze(0).to(self.device)
+                q_values = self.student.q_network.model(fstate)
+                # if unexplored==True:
+                #     print(f"skipping state {s} due to it being unexplored")
+                #     continue
+                rangeq=torch.max(q_values)-torch.min(q_values).to(self.device)
+                #print(f"state {s} has range {rangeq} and visits {self.student.visits[s]}")
+                x = q_table[s]["info"]["ball_x"]
+                y = q_table[s]["info"]["ball_y"]
+                cond = x == 0 and y == 0
+                if s not in self.student.struggling_states and sq<rangeq and not cond:# and self.student.visits[s]>(frame_idx/10):
+                    sq=rangeq
+                    struggling_qvalues=q_values
+                    struggling_state = s
+            #print(f"struggling state - {sq}, struggling q_values - {struggling_qvalues}, info - {q_table[struggling_state]['info']}, prev_info - {q_table[struggling_state]['prev_info']}")
+            #self.student.struggling_states.add((q_table[struggling_state]['info'],q_table[struggling_state]['prev_info']))
+        if struggling_state:
+            si = q_table[struggling_state]['info']
+            spi = q_table[struggling_state]['prev_info']
+            print("*******Collecting 1 important state**********")
+            self.struggling_states_n += 1
+            img = torch.tensor(ast.literal_eval(struggling_state)).squeeze(0).cpu().numpy()
+            plt.imshow(img) # Assuming grayscale image, change cmap if needed
+            plt.savefig("states/image-"+str(self.struggling_states_n)+".png")
+            return (struggling_state,si,spi)
+        else:
+            print("NO STRUGGLING STATE")
+            return(None, None, None)
+        
     def update_policy(self, teacher_input):
         pass
 
@@ -87,8 +90,8 @@ class Game:
         print("========Training the student for 1000 steps============")
         self.student.train(tt)
         struggling_state, curr_info, prev_info = self.return_most_imp_states(tt)
-        rec_action = self.teacher.prompt([(curr_info, prev_info)])
-        self.student.teacher_recommendations = {struggling_state: rec_action}
+        rec_action = 3 #self.teacher.prompt([(curr_info, prev_info)])
+        self.student.teacher_recommendations = {(struggling_state, str(curr_info)+"#"+str(prev_info)): rec_action}
         tt+=1000
         self.student.max_frames+=200
         self.student.local_q_buffer = {}
@@ -97,7 +100,9 @@ class Game:
             self.x.append(tt)
             self.y.append(np.mean([self.student.test_env() for _ in range(5)]))
             last_info=self.student.train(tt,last_info)
-            print(f"========Training the student for {self.student.max_frames} steps============")
+            print("Length Q BUFFER =========== ", len(self.student.local_q_buffer))
+            # print(f"========Training the student for {self.student.max_frames} steps============")
+            # print("Length Q BUFFER =========== ", len(self.student.local_q_buffer))
             struggling_state, curr_info, prev_info = self.return_most_imp_states(tt)
             self.student.local_q_buffer = {}
             #print("Querying the teacher --- ")
@@ -105,6 +110,8 @@ class Game:
             key = (struggling_state,str(curr_info)+"#"+str(prev_info))
             if key not in self.student.teacher_recommendations:
                 self.student.teacher_recommendations[key] = rec_action
+            else:
+                print("teacher_recommendations----", len(self.student.teacher_recommendations))
             #{(0,0):3,(0,1):3,(0,2):1,(1,0):0,(1,1):3,(1,2):1,(2,0):3,(2,1):3}
             #{(1, 0): 0, (0, 2): 1, (1, 2): 1}#self.teacher.prompt([struggling_state])
             #self.update_policy(teacher_actions)
