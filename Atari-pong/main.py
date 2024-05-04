@@ -101,7 +101,7 @@ class Game:
             struggling_state, curr_info, prev_info = self.return_most_imp_states(tt)
             self.student.local_q_buffer = {}
             #print("Querying the teacher --- ")
-            rec_action = self.teacher.prompt([(curr_info, prev_info)])
+            rec_action = 3#self.teacher.prompt([(curr_info, prev_info)])
             key = (struggling_state,str(curr_info)+"#"+str(prev_info))
             if key not in self.student.teacher_recommendations:
                 self.student.teacher_recommendations[key] = rec_action
