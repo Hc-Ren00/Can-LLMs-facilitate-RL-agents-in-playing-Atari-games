@@ -1,0 +1,346 @@
+SPS: 11
+struggling_states_n:  0
+SPS: 12
+struggling_states_n:  0
+*******Collecting 1 important state**********
+SPS: 7
+struggling_states_n:  1
+SPS: 8
+struggling_states_n:  1
+*******Collecting 1 important state**********
+SPS: 7
+struggling_states_n:  2
+SPS: 7
+struggling_states_n:  2
+*******Collecting 1 important state**********
+SPS: 7
+struggling_states_n:  3
+SPS: 6
+struggling_states_n:  3
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  4
+SPS: 6
+struggling_states_n:  4
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  5
+SPS: 6
+struggling_states_n:  5
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  6
+SPS: 6
+struggling_states_n:  6
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  7
+SPS: 6
+struggling_states_n:  7
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  8
+SPS: 6
+struggling_states_n:  8
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  9
+SPS: 6
+struggling_states_n:  9
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  10
+SPS: 6
+struggling_states_n:  10
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  11
+SPS: 6
+struggling_states_n:  11
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  12
+SPS: 6
+struggling_states_n:  12
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  13
+SPS: 6
+struggling_states_n:  13
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  14
+SPS: 6
+struggling_states_n:  14
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  15
+SPS: 6
+struggling_states_n:  15
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  16
+SPS: 6
+struggling_states_n:  16
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  17
+SPS: 6
+struggling_states_n:  17
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  18
+SPS: 6
+struggling_states_n:  18
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  19
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+SPS: 6
+struggling_states_n:  19
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  20
+SPS: 6
+struggling_states_n:  20
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  21
+SPS: 6
+struggling_states_n:  21
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  22
+SPS: 6
+struggling_states_n:  22
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  23
+SPS: 6
+struggling_states_n:  23
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  24
+SPS: 6
+struggling_states_n:  24
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  25
+SPS: 6
+struggling_states_n:  25
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  26
+SPS: 6
+struggling_states_n:  26
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  27
+SPS: 6
+struggling_states_n:  27
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  28
+SPS: 6
+struggling_states_n:  28
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  29
+SPS: 6
+struggling_states_n:  29
+*******Collecting 1 important state**********
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+SPS: 6
+struggling_states_n:  30
+SPS: 6
+struggling_states_n:  30
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  31
+SPS: 6
+struggling_states_n:  31
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  32
+SPS: 6
+struggling_states_n:  32
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  33
+SPS: 6
+struggling_states_n:  33
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  34
+SPS: 6
+struggling_states_n:  34
+*******Collecting 1 important state**********
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+SPS: 6
+struggling_states_n:  35
+SPS: 6
+struggling_states_n:  35
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  36
+SPS: 6
+struggling_states_n:  36
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  37
+SPS: 6
+struggling_states_n:  37
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  38
+SPS: 6
+struggling_states_n:  38
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  39
+SPS: 6
+struggling_states_n:  39
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  40
+SPS: 6
+struggling_states_n:  40
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  41
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+SPS: 6
+struggling_states_n:  41
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  42
+SPS: 6
+struggling_states_n:  42
+*******Collecting 1 important state**********
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+SPS: 6
+struggling_states_n:  43
+SPS: 6
+struggling_states_n:  43
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  44
+SPS: 6
+struggling_states_n:  44
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  45
+SPS: 6
+struggling_states_n:  45
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  46
+SPS: 6
+struggling_states_n:  46
+*******Collecting 1 important state**********
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+SPS: 6
+struggling_states_n:  47
+SPS: 6
+struggling_states_n:  47
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  48
+SPS: 6
+struggling_states_n:  48
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  49
+SPS: 6
+struggling_states_n:  49
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  50
+SPS: 6
+struggling_states_n:  50
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  51
+SPS: 6
+struggling_states_n:  51
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  52
+SPS: 6
+struggling_states_n:  52
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  53
+SPS: 6
+struggling_states_n:  53
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  54
+SPS: 6
+struggling_states_n:  54
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  55
+SPS: 6
+struggling_states_n:  55
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  56
+SPS: 6
+struggling_states_n:  56
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  57
+SPS: 6
+struggling_states_n:  57
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  58
+SPS: 6
+struggling_states_n:  58
+*******Collecting 1 important state**********
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+SPS: 6
+struggling_states_n:  59
+SPS: 6
+struggling_states_n:  59
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  60
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+***********STRUGGLING STATE SEEN***************
+SPS: 6
+struggling_states_n:  60
+*******Collecting 1 important state**********
+SPS: 6
+struggling_states_n:  61
+SPS: 6
+struggling_states_n:  61
+*******Collecting 1 important state**********

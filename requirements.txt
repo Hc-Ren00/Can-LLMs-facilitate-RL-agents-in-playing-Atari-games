@@ -3,7 +3,6 @@ ale-py==0.8.1
 annotated-types==0.6.0
 anyio==4.3.0
 appdirs==1.4.4
-atariari==0.0.1
 AutoROM==0.4.2
 AutoROM.accept-rom-license==0.6.1
 certifi==2024.2.2
