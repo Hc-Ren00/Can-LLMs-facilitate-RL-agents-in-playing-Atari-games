@@ -49,7 +49,7 @@ class Args:
     # Algorithm specific arguments
     env_id: str = "Pong-v4"
     """the id of the environment"""
-    total_timesteps: int = 800000
+    total_timesteps: int = 2000
     """total timesteps of the experiments"""
     learning_rate: float = 2.5e-4
     """the learning rate of the optimizer"""
@@ -98,17 +98,18 @@ def make_env(env_id, idx, capture_video, run_name):
         #     env = gym.wrappers.RecordVideo(env, f"videos/{run_name}")
         # else:
         #     env = gym.make(env_id)
-        # env = gym.wrappers.RecordEpisodeStatistics(env)
-        # env = NoopResetEnv(env, noop_max=30)
-        # env = MaxAndSkipEnv(env, skip=4)
-        # env = EpisodicLifeEnv(env)
-        # if "FIRE" in env.unwrapped.get_action_meanings():
-        #     env = FireResetEnv(env)
-        # # env = ClipRewardEnv(env)
+        env = gym.make(env_id)
+        env = gym.wrappers.RecordEpisodeStatistics(env)
+        env = NoopResetEnv(env, noop_max=30)
+        # env = MaxAndSkipEnv(env, skip=1)
+        env = EpisodicLifeEnv(env)
+        if "FIRE" in env.unwrapped.get_action_meanings():
+            env = FireResetEnv(env)
+        env = ClipRewardEnv(env)
         # # env = gym.wrappers.ResizeObservation(env, (84, 84))
         # # env = gym.wrappers.GrayScaleObservation(env)
         # # env = gym.wrappers.FrameStack(env, 1)
-        env = AtariARIWrapper(gym.make(env_id))
+        env = AtariARIWrapper(env)
         return env
 
     return thunk
@@ -447,7 +448,9 @@ if __name__ == "__main__":
                         total_reward += reward
                         #print("-----test returned -----:",total_reward,n)
                     return total_reward
-                y.append(np.mean([test_env() for _ in range(5)]))
+                test_reward = np.mean([test_env() for _ in range(5)])
+                y.append(test_reward)
+                print(f"At {global_step} steps, the test reward is ------- ", test_reward)
 
             if "final_info" in infos:
                 for info in infos["final_info"]:
