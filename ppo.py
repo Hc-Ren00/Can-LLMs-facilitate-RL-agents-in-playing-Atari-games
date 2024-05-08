@@ -49,7 +49,7 @@ class Args:
     # Algorithm specific arguments
     env_id: str = "Pong-v4"
     """the id of the environment"""
-    total_timesteps: int = 2000
+    total_timesteps: int = 800000
     """total timesteps of the experiments"""
     learning_rate: float = 2.5e-4
     """the learning rate of the optimizer"""
@@ -151,7 +151,7 @@ def find_imp_states(q_table, q_network, device, struggling_states):
     #print(q_table[struggling_state])
     si = q_table[struggling_state]['info']
     spi = q_table[struggling_state]['prev_info']
-    print("*******Collecting 1 important state**********")
+    # print("*******Collecting 1 important state**********")
     struggling_states_n+=1
     img_tensor = torch.tensor(ast.literal_eval(struggling_state))
     # img_tensor = torch.unsqueeze(img_tensor.view(84,84))
@@ -172,7 +172,7 @@ def generate_teacher_logits(states, info, prev_info, struggling_states, device):
             fstate = str(s.tolist())
             key = (fstate,str(info_s)+"#"+str(prev_info_s))
             if key in struggling_states:
-                print("***********STRUGGLING STATE SEEN***************")
+                # print("***********STRUGGLING STATE SEEN***************")
                 s_teacher_probs[struggling_states[key]]=1
             teacher_probs.append(s_teacher_probs)
         #print(teacher_probs)
@@ -240,9 +240,9 @@ class Teacher():
         
     def query_codex(self, prompt_text):
         result=''
-        server_error_cnt = 0
         while True:
             try:
+                server_error_cnt = 0
                 while server_error_cnt < 10:
                     try:
                         result = self.client.chat.completions.create(
@@ -260,15 +260,15 @@ class Teacher():
                                 ],
                                 max_tokens=4096
                             ).choices[0].message.content
-                        break
-                            
+                        break                            
                     except Exception as e:
                         server_error_cnt += 1
-                        print(f"fail to query: {e}")
+                        continue
+                        # print(f"fail to query")
                 result = self.return_action(result)
                 break
             except:
-                print(result)
+                # print(result)
                 continue
         return result
     
@@ -450,7 +450,7 @@ if __name__ == "__main__":
                     return total_reward
                 test_reward = np.mean([test_env() for _ in range(5)])
                 y.append(test_reward)
-                print(f"At {global_step} steps, the test reward is ------- ", test_reward)
+                # print(f"At {global_step} steps, the test reward is ------- ", test_reward)
 
             if "final_info" in infos:
                 for info in infos["final_info"]:
@@ -581,8 +581,8 @@ if __name__ == "__main__":
         writer.add_scalar("losses/approx_kl", approx_kl.item(), global_step)
         writer.add_scalar("losses/clipfrac", np.mean(clipfracs), global_step)
         writer.add_scalar("losses/explained_variance", explained_var, global_step)
-        print("SPS:", int(global_step / (time.time() - start_time)))
-        print("struggling_states_n: ",struggling_states_n)
+        # print("SPS:", int(global_step / (time.time() - start_time)))
+        # print("struggling_states_n: ",struggling_states_n)
         writer.add_scalar("charts/SPS", int(global_step / (time.time() - start_time)), global_step)
 
     envs.close()

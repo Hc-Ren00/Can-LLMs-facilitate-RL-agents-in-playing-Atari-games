@@ -1,0 +1,7 @@
+f = open("log.txt", "r")
+lines = f.readlines()
+print(lines[-5])
+print(lines[-4])
+print(lines[-3])
+print(lines[-2])
+print(lines[-1])
