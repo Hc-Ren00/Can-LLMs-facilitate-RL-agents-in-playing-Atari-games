@@ -18,6 +18,7 @@ from torch.utils.tensorboard import SummaryWriter
 from atariari.benchmark.wrapper import AtariARIWrapper
 import torchvision.transforms.functional as TF
 from process_image import ProcessPong
+from SkipNoMaxWrapper import SkipNoMax
 
 from stable_baselines3.common.atari_wrappers import (  # isort:skip
     ClipRewardEnv,
@@ -50,7 +51,7 @@ class Args:
     # Algorithm specific arguments
     env_id: str = "Pong-v4"
     """the id of the environment"""
-    total_timesteps: int = 500
+    total_timesteps: int = 3e6
     """total timesteps of the experiments"""
     learning_rate: float = 2.5e-4
     """the learning rate of the optimizer"""
@@ -91,6 +92,11 @@ class Args:
     num_iterations: int = 0
     """the number of iterations (computed in runtime)"""
 
+def save_img(next_obs, ctr):
+    img = next_obs.squeeze(0)
+    for i in range(4):
+        plt.imshow(img[i])  # Assuming grayscale image, change cmap if needed
+        plt.savefig("observations/image-"+str(ctr)+"-"+str(i)+".png")
 
 def make_env(env_id, idx, capture_video, run_name):
     def thunk():
@@ -102,14 +108,14 @@ def make_env(env_id, idx, capture_video, run_name):
         env = gym.make(env_id)
         env = gym.wrappers.RecordEpisodeStatistics(env)
         env = NoopResetEnv(env, noop_max=30)
-        env = MaxAndSkipEnv(env, skip=4)
+        env = SkipNoMax(env, skip=4)
         env = EpisodicLifeEnv(env)
         if "FIRE" in env.unwrapped.get_action_meanings():
             env = FireResetEnv(env)
         env = ClipRewardEnv(env)
         env = ProcessPong(env, (80, 80))
         # env = gym.wrappers.ResizeObservation(env, (84, 84))
-        env = gym.wrappers.GrayScaleObservation(env)
+        # env = gym.wrappers.GrayScaleObservation(env)
         env = gym.wrappers.FrameStack(env, 4)
         env = AtariARIWrapper(env)
         
@@ -141,7 +147,7 @@ def layer_init(layer, std=np.sqrt(2), bias_const=0.0):
 try enabling checkpoint 
 1 - MaxAndSkip + FrameStack + entire stack as an imp state
 2 - SkipNoMax + FrameStack + entire stack as an imp state
-3 = MaxAndSkip + FrameStack + last state as an imp state
+3 - MaxAndSkip + FrameStack + last state as an imp state
 4 - SkipNoMax + FrameStack + last state as an imp state
 5 - MaxAndSkip + FrameStack + similarity
 same project
@@ -150,41 +156,35 @@ log the kick-starting loss
 def find_imp_states(q_table, q_network, device, struggling_states):
     global struggling_states_n
     struggling_state=None
-    struggling_qvalues=None
+    struggling_frame = None
     sq=float('-inf')
     #print(len(q_table))
     for s in q_table:
         fstate = torch.tensor(ast.literal_eval(s)).unsqueeze(0).to(device)
         q_values = q_network.model(fstate)
         rangeq=torch.max(q_values)-torch.min(q_values).to(device)
-        key = (s,str(q_table[s]['info'])+"#"+str(q_table[s]['prev_info']))
+        key = s+"***"+str(q_table[s]['info'])+"#"+str(q_table[s]['prev_info'])
         if key not in struggling_states and sq<rangeq:# and self.student.visits[s]>(frame_idx/10):
             sq=rangeq
-            struggling_qvalues=q_values
+            struggling_frame = fstate[-1]
             struggling_state = s
     #print(q_table[struggling_state])
     si = q_table[struggling_state]['info']
     spi = q_table[struggling_state]['prev_info']
+    x = q_table[struggling_state]["counter"]
+    print(f"********IDENTIFIED {x} AS A STRUGGLING STATE*******")
+    print(f"STRUGGLING STATE NO {struggling_states_n} has info - {si}, prev_info - {spi}")
     # print("*******Collecting 1 important state**********")
     struggling_states_n+=1
-    img_tensor = torch.tensor(ast.literal_eval(struggling_state))
-    # img_tensor = torch.unsqueeze(img_tensor.view(84,84))
-    #print(img_tensor.shape)
-    img = img_tensor#torch.squeeze(img_tensor).to(device).numpy()
-    #print(img.shape) #(4,84,84)
-    # img = np.transpose(img, (1, 2, 0)) #(84,84,4)
-    # print(img.shape)
-    #print(img.shape,struggling_qvalues)
-    plt.imshow(img)  # Assuming grayscale image, change cmap if needed
-    plt.savefig("states/image-"+str(struggling_states_n)+"-"+".png")
-    return (struggling_state,si,spi)
+    struggling_frame = str(struggling_frame.tolist())
+    return (struggling_frame,si,spi)
 
 def generate_teacher_logits(states, info, prev_info, struggling_states, device):
         teacher_probs = []
         for s,info_s,prev_info_s in zip(states,info,prev_info):
             s_teacher_probs = [0]*6
-            fstate = str(s.tolist())
-            key = (fstate,str(info_s)+"#"+str(prev_info_s))
+            fstate = str(s[-1].tolist())
+            key = fstate+"***"+str(info_s)+"#"+str(prev_info_s)
             if key in struggling_states:
                 # print("***********STRUGGLING STATE SEEN***************")
                 s_teacher_probs[struggling_states[key]]=1
@@ -235,12 +235,21 @@ class Teacher():
         self.client = OpenAI(api_key=os.environ["KEY"])
 
     def create_prompt(self, info, prev_info):
-        player_coords = (info['player_x'],info['player_y'])
+        player_coords = (info['player_x'],210-info['player_y'])
         enemy_coords = (info['enemy_x'],info['enemy_y'])
-        ball_pos = (info['ball_x'],info['ball_y'])
-        prev_ball_pos = (prev_info['ball_x'],prev_info['ball_y'])
-        output = f'My coordinates are {player_coords} and my enemy\'s coordinates are {enemy_coords}. The ball is at the position {ball_pos}. Right before this, the ball was at {prev_ball_pos}. Following are the six actions available in the format (action id: action) - 0: do nothing, 1: FIRE, 2: RIGHT,  3:LEFT,4:RIGHTFIRE,5:LEFTFIRE. Which action would be the best to take in this situation to win? Please give me the answer just in the format of (action: <action ID>). Example response:(action: 3)'
-        return output
+        ball_pos = (info['ball_x'],210-info['ball_y'])
+        prev_ball_pos = (prev_info['ball_x'],210-prev_info['ball_y'])
+        output = f"My x-coordinate is {player_coords[0]} and my y-coordinate is {player_coords[1]}. The ball is at the position {ball_pos}. Right before this state, the ball was at {prev_ball_pos}.\n"
+        instructions = """
+Following are the six actions available in the format (action id: action) -
+(0: do nothing),
+(1: FIRE),
+(2: RIGHT),
+(3: LEFT),
+(4: RIGHTFIRE),
+(5: LEFTFIRE). 
+Which action would be the best to take in this situation to win? Please give me the answer in the format of (action: <action ID>). Example response:(action: 3)"""
+        return output + instructions
 
     def RL2LLM(self, info, prev_info):
         key = str(info)+"#"+str(prev_info)
@@ -311,7 +320,7 @@ class Qtable(nn.Module):
     def __init__(self, envs):
         super().__init__()
         self.network = nn.Sequential(
-            layer_init(nn.Conv2d(1, 32, 8, stride=4)),
+            layer_init(nn.Conv2d(4, 32, 8, stride=4)),
             nn.ReLU(),
             layer_init(nn.Conv2d(32, 64, 4, stride=2)),
             nn.ReLU(),
@@ -346,6 +355,7 @@ class QNetwork:
 
 
 if __name__ == "__main__":
+    state_seen_again_n = 0
     args = tyro.cli(Args)
     args.batch_size = int(args.num_envs * args.num_steps)
     args.minibatch_size = int(args.batch_size // args.num_minibatches)
@@ -387,8 +397,25 @@ if __name__ == "__main__":
     agent = Agent(envs).to(device)
     q_network = QNetwork(envs, device)
     optimizer = optim.Adam(agent.parameters(), lr=args.learning_rate, eps=1e-5)
-    teacher = Teacher(model='gpt-3.5-turbo-1106', prefix="I'm playing a game of Atari pong using the openai gym environment which represents the game as a grid of (210,160).")
-    print(envs.single_observation_space.shape)
+    teacher = Teacher(model='gpt-3.5-turbo-1106', prefix="""
+                      I'm playing a game of Atari Pong-v4 using the openai gym environment of grid size 210x210 with origin at the bottom-left corner.
+My x-coordinate is 188 and my y-coordinate is 137. The ball is at the position (173,37). Right before this state, the ball was at (159,51). 
+Following are the six actions available in the format (action id: action) -
+(0: do nothing),
+(1: FIRE),
+(2: RIGHT),
+(3: LEFT),
+(4: RIGHTFIRE),
+(5: LEFTFIRE). 
+Which action would be the best to take in this situation to win? Please give me the answer in the format of (action: <action ID>). 
+Reasoning: Considering the trajectory of the ball, it's moving towards the bottom right. Comparing my position and the ball's position, let's calculate the difference of y-coordinates only since x-coordinate of the bat is constant - 
+my y-coordinate - ball y-coordinate = 137 - 37 = 100
+Since this number is positive, it seems like I have to move downwards, or LEFT to save the ball.
+Hence the output should be (action: 3). Example response:(action: 3)
+Output: (action: 3)
+
+Question:I'm playing a game of Atari Pong-v4 using the openai gym environment of grid size 210x210 with origin at the bottom-left corner.{}""")
+    print("obs shape - ",envs.single_observation_space.shape)
     # ALGO Logic: Storage setup
     obs = torch.zeros((args.num_steps, args.num_envs) + envs.single_observation_space.shape).to(device)
     actions = torch.zeros((args.num_steps, args.num_envs) + envs.single_action_space.shape).to(device)
@@ -396,12 +423,16 @@ if __name__ == "__main__":
     rewards = torch.zeros((args.num_steps, args.num_envs)).to(device)
     dones = torch.zeros((args.num_steps, args.num_envs)).to(device)
     values = torch.zeros((args.num_steps, args.num_envs)).to(device)
+    info_arr = [None] * args.num_steps
+    prev_info_arr = [None] * args.num_steps
 
     # TRY NOT TO MODIFY: start the game
     global_step = 0
+    img_ctr=0
     start_time = time.time()
     next_obs, _ = envs.reset(seed=args.seed)
     next_obs = torch.Tensor(next_obs).to(device)
+    save_img(next_obs,img_ctr)
     next_done = torch.zeros(args.num_envs).to(device)
     struggling_states = dict()
     local_q_buffer = {}
@@ -410,9 +441,25 @@ if __name__ == "__main__":
     y = []
     for iteration in range(1, args.num_iterations + 1):
         # Annealing the rate if instructed to do so.
-        next_obs, reward, terminations, truncations, infos = envs.step([3])
-        print("DONEEEE")
+        #next_obs, reward, terminations, truncations, infos = envs.step([3])
         ############
+        if (iteration+1)%10==0:
+            torch.save({
+            'epoch': iteration,
+            'actor_critic_state_dict': agent.state_dict(),
+            'q_network_state_dict': q_network.model.state_dict(),
+            'q_network_criterion': q_network.criterion.state_dict(),
+            'q_network_optimizer_dict': q_network.optimizer.state_dict(),
+            'optimizer_state_dict': optimizer.state_dict(),
+            }, f"./checkpoints/checkpoint_{iteration}.pt")
+
+            import json
+            with open(f'./checkpoints/checkpoint_teacher_recommend_{iteration}.json', 'w') as fp:
+                json.dump(teacher.saved_teacher_recommendations, fp)
+            with open(f'./checkpoints/checkpoint_struggling_states_{iteration}.json', 'w') as fp:
+                json.dump(struggling_states, fp)
+
+        
         if args.anneal_lr:
             frac = 1.0 - (iteration - 1.0) / args.num_iterations
             lrnow = frac * args.learning_rate
@@ -420,15 +467,17 @@ if __name__ == "__main__":
         if iteration%2==1 and iteration>1:
             ss, s_info, spinfo = find_imp_states(local_q_buffer, q_network, device, struggling_states)
             rec_action = teacher.prompt([(s_info, spinfo)])
-            key = (ss,str(s_info)+"#"+str(spinfo))
+            key = ss+"***"+str(s_info)+"#"+str(spinfo)
             struggling_states[key] = rec_action
             local_q_buffer = {}
-        info_arr = []
-        prev_info_arr = []
+        
+        image_counter = []
         for step in range(0, args.num_steps):
             global_step += args.num_envs
             obs[step] = next_obs
             dones[step] = next_done
+            info_arr[step] = prev_info
+            prev_info_arr[step] = None if (step-1)<0 else info_arr[step-1]
 
             # ALGO LOGIC: action logic
             with torch.no_grad():
@@ -438,10 +487,10 @@ if __name__ == "__main__":
             logprobs[step] = logprob
 
             # TRY NOT TO MODIFY: execute the game and log data.
-            next_obs, reward, terminations, truncations, infos, orig_frame = envs.step(action.cpu().numpy())
-            #next_obs, _ = preprocess_image_pong(next_obs, device)
-            #print(f"At step {step}, we have {infos['labels'][0]}")
-            #print(infos)
+            next_obs, reward, terminations, truncations, infos = envs.step(action.cpu().numpy())
+            img_ctr+=1
+            #save_img(next_obs, img_ctr)
+            image_counter.append(img_ctr)
             next_done = np.logical_or(terminations, truncations)
             rewards[step] = torch.tensor(reward).to(device).view(-1)
             next_obs, next_done = torch.Tensor(next_obs).to(device), torch.Tensor(next_done).to(device)
@@ -478,13 +527,9 @@ if __name__ == "__main__":
                         print(f"global_step={global_step}, episodic_return={info['episode']['r']}")
                         writer.add_scalar("charts/episodic_return", info["episode"]["r"], global_step)
                         writer.add_scalar("charts/episodic_length", info["episode"]["l"], global_step)
-                        #print(info['labels'])
-                        info_arr.append(info['labels'])
-                        prev_info_arr.append(prev_info)
+                        prev_info = info['labels']
             else:
-                info_arr.append(infos['labels'][0])
-                prev_info_arr.append(prev_info)
-            prev_info = info_arr[-1]
+                prev_info = infos['labels'][0]
 
         # bootstrap value if not done
         with torch.no_grad():
@@ -536,14 +581,15 @@ if __name__ == "__main__":
                 #q buffer update
                 mb_infos = [info_arr[i] for i in mb_inds]
                 mb_prev_infos = [prev_info_arr[i] for i in mb_inds]
+                mb_img_ctr = [image_counter[i] for i in mb_inds]
                 mb_values = b_values[mb_inds]
                 mb_q_values = mb_advantages + mb_values
                 mb_states = b_obs[mb_inds]
                 mb_actions = b_actions.long()[mb_inds]
                 mb_teacher_probs = generate_teacher_logits(mb_states, mb_infos, mb_prev_infos, struggling_states, device)
                 kickstarting_loss = -(logits * mb_teacher_probs).sum(dim=-1).mean()
-                #print(actions.shape)
-                #print(x)
+                if kickstarting_loss>0:
+                    state_seen_again_n +=1
                 for idx in range(len(mb_states)):
                     list_tensor = mb_states[idx].tolist()
                     str_tensor = str(list_tensor)
@@ -554,8 +600,9 @@ if __name__ == "__main__":
                     local_q_buffer[str_tensor]["q-values"][mb_actions[idx].tolist()]=q_value
                     local_q_buffer[str_tensor]["info"] = mb_infos[idx]
                     local_q_buffer[str_tensor]["prev_info"]= mb_prev_infos[idx]
-                    print("^^^^^^^^^^^^",mb_states[idx][-1].shape)
-                    q_network.update(mb_states[idx][-1].unsqueeze(0).unsqueeze(0),mb_actions[idx],q_value)
+                    local_q_buffer[str_tensor]["counter"] = mb_img_ctr[idx]
+                    #print("^^^^^^^^^^^^",mb_states[idx][-1].shape)
+                    q_network.update(mb_states[idx].unsqueeze(0),mb_actions[idx],q_value)
                 # for state in states:
                 #     print(state.shape)
                 # Policy loss
@@ -602,6 +649,7 @@ if __name__ == "__main__":
         writer.add_scalar("losses/approx_kl", approx_kl.item(), global_step)
         writer.add_scalar("losses/clipfrac", np.mean(clipfracs), global_step)
         writer.add_scalar("losses/explained_variance", explained_var, global_step)
+        writer.add_scalar("charts/Contribution_of_KL",state_seen_again_n,global_step)
         # print("SPS:", int(global_step / (time.time() - start_time)))
         # print("struggling_states_n: ",struggling_states_n)
         writer.add_scalar("charts/SPS", int(global_step / (time.time() - start_time)), global_step)

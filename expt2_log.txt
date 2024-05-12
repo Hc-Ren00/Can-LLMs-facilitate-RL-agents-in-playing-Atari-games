@@ -1,0 +1,28 @@
+***********: (80, 80)
+obs shape -  (4, 80, 80)
+********IDENTIFIED 62 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 0 has info - {'player_y': 73, 'player_x': 188, 'enemy_y': 174, 'enemy_x': 64, 'ball_x': 173, 'ball_y': 173, 'enemy_score': 4, 'player_score': 0}, prev_info - {'player_y': 38, 'player_x': 188, 'enemy_y': 160, 'enemy_x': 64, 'ball_x': 159, 'ball_y': 159, 'enemy_score': 4, 'player_score': 0}
+Teacher LLM returned: plans - 2
+global_step=278, episodic_return=[-20.]
+********IDENTIFIED 348 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 1 has info - {'player_y': 61, 'player_x': 188, 'enemy_y': 174, 'enemy_x': 64, 'ball_x': 174, 'ball_y': 174, 'enemy_score': 5, 'player_score': 0}, prev_info - {'player_y': 38, 'player_x': 188, 'enemy_y': 164, 'enemy_x': 64, 'ball_x': 163, 'ball_y': 163, 'enemy_score': 5, 'player_score': 0}
+Teacher LLM returned: plans - 3
+global_step=563, episodic_return=[-21.]
+********IDENTIFIED 700 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 2 has info - {'player_y': 162, 'player_x': 188, 'enemy_y': 182, 'enemy_x': 64, 'ball_x': 181, 'ball_y': 181, 'enemy_score': 8, 'player_score': 0}, prev_info - {'player_y': 187, 'player_x': 188, 'enemy_y': 170, 'enemy_x': 64, 'ball_x': 170, 'ball_y': 170, 'enemy_score': 8, 'player_score': 0}
+Teacher LLM returned: plans - 3
+global_step=877, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 789 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 3 has info - {'player_y': 158, 'player_x': 188, 'enemy_y': 182, 'enemy_x': 64, 'ball_x': 181, 'ball_y': 181, 'enemy_score': 14, 'player_score': 0}, prev_info - {'player_y': 183, 'player_x': 188, 'enemy_y': 170, 'enemy_x': 64, 'ball_x': 169, 'ball_y': 169, 'enemy_score': 14, 'player_score': 0}
+Teacher LLM returned: plans - 1
+********IDENTIFIED 1195 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 4 has info - {'player_y': 136, 'player_x': 188, 'enemy_y': 56, 'enemy_x': 64, 'ball_x': 104, 'ball_y': 59, 'enemy_score': 12, 'player_score': 0}, prev_info - {'player_y': 136, 'player_x': 188, 'enemy_y': 60, 'enemy_x': 64, 'ball_x': 76, 'ball_y': 58, 'enemy_score': 12, 'player_score': 0}
+Teacher LLM returned: plans - 1
+global_step=1292, episodic_return=[-21.]
+[1000]
+[-19.2]

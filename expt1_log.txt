@@ -1,0 +1,56 @@
+***********: (80, 80)
+obs shape -  (4, 80, 80)
+********IDENTIFIED 62 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 0 has info - {'player_y': 73, 'player_x': 188, 'enemy_y': 174, 'enemy_x': 64, 'ball_x': 173, 'ball_y': 173, 'enemy_score': 4, 'player_score': 0}, prev_info - {'player_y': 38, 'player_x': 188, 'enemy_y': 160, 'enemy_x': 64, 'ball_x': 159, 'ball_y': 159, 'enemy_score': 4, 'player_score': 0}
+Teacher LLM returned: plans - 3
+global_step=278, episodic_return=[-20.]
+********IDENTIFIED 383 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 1 has info - {'player_y': 66, 'player_x': 188, 'enemy_y': 176, 'enemy_x': 64, 'ball_x': 175, 'ball_y': 175, 'enemy_score': 8, 'player_score': 0}, prev_info - {'player_y': 66, 'player_x': 188, 'enemy_y': 164, 'enemy_x': 64, 'ball_x': 164, 'ball_y': 164, 'enemy_score': 8, 'player_score': 0}
+Teacher LLM returned: plans - 3
+global_step=563, episodic_return=[-21.]
+********IDENTIFIED 688 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 2 has info - {'player_y': 193, 'player_x': 188, 'enemy_y': 182, 'enemy_x': 64, 'ball_x': 182, 'ball_y': 182, 'enemy_score': 7, 'player_score': 0}, prev_info - {'player_y': 176, 'player_x': 188, 'enemy_y': 170, 'enemy_x': 64, 'ball_x': 170, 'ball_y': 170, 'enemy_score': 7, 'player_score': 0}
+Teacher LLM returned: plans - 2
+global_step=934, episodic_return=[-19.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 780 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 3 has info - {'player_y': 158, 'player_x': 188, 'enemy_y': 180, 'enemy_x': 64, 'ball_x': 179, 'ball_y': 179, 'enemy_score': 11, 'player_score': 1}, prev_info - {'player_y': 105, 'player_x': 188, 'enemy_y': 168, 'enemy_x': 64, 'ball_x': 167, 'ball_y': 167, 'enemy_score': 11, 'player_score': 1}
+Teacher LLM returned: plans - 3
+********IDENTIFIED 1236 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 4 has info - {'player_y': 138, 'player_x': 188, 'enemy_y': 168, 'enemy_x': 64, 'ball_x': 167, 'ball_y': 167, 'enemy_score': 16, 'player_score': 0}, prev_info - {'player_y': 141, 'player_x': 188, 'enemy_y': 160, 'enemy_x': 64, 'ball_x': 159, 'ball_y': 159, 'enemy_score': 16, 'player_score': 0}
+Teacher LLM returned: plans - 3
+global_step=1285, episodic_return=[-21.]
+********IDENTIFIED 1281 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 5 has info - {'player_y': 124, 'player_x': 188, 'enemy_y': 158, 'enemy_x': 64, 'ball_x': 157, 'ball_y': 157, 'enemy_score': 20, 'player_score': 0}, prev_info - {'player_y': 145, 'player_x': 188, 'enemy_y': 146, 'enemy_x': 64, 'ball_x': 145, 'ball_y': 145, 'enemy_score': 20, 'player_score': 0}
+Teacher LLM returned: plans - 3
+global_step=1586, episodic_return=[-20.]
+********IDENTIFIED 1553 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 6 has info - {'player_y': 43, 'player_x': 188, 'enemy_y': 68, 'enemy_x': 64, 'ball_x': 178, 'ball_y': 68, 'enemy_score': 18, 'player_score': 1}, prev_info - {'player_y': 95, 'player_x': 188, 'enemy_y': 74, 'enemy_x': 64, 'ball_x': 182, 'ball_y': 74, 'enemy_score': 18, 'player_score': 1}
+Teacher LLM returned: plans - 3
+global_step=1836, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 1812 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 7 has info - {'player_y': 147, 'player_x': 188, 'enemy_y': 188, 'enemy_x': 64, 'ball_x': 187, 'ball_y': 187, 'enemy_score': 18, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 174, 'enemy_x': 64, 'ball_x': 173, 'ball_y': 173, 'enemy_score': 18, 'player_score': 0}
+Teacher LLM returned: plans - 3
+global_step=2300, episodic_return=[-20.]
+********IDENTIFIED 2126 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 8 has info - {'player_y': 140, 'player_x': 188, 'enemy_y': 94, 'enemy_x': 64, 'ball_x': 157, 'ball_y': 99, 'enemy_score': 9, 'player_score': 0}, prev_info - {'player_y': 71, 'player_x': 188, 'enemy_y': 72, 'enemy_x': 64, 'ball_x': 183, 'ball_y': 73, 'enemy_score': 9, 'player_score': 0}
+Teacher LLM returned: plans - 2
+********IDENTIFIED 2535 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 9 has info - {'player_y': 169, 'player_x': 188, 'enemy_y': 168, 'enemy_x': 64, 'ball_x': 167, 'ball_y': 167, 'enemy_score': 14, 'player_score': 0}, prev_info - {'player_y': 123, 'player_x': 188, 'enemy_y': 156, 'enemy_x': 64, 'ball_x': 155, 'ball_y': 155, 'enemy_score': 14, 'player_score': 0}
+Teacher LLM returned: plans - 2
+global_step=2631, episodic_return=[-21.]
+********IDENTIFIED 2737 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 10 has info - {'player_y': 105, 'player_x': 188, 'enemy_y': 162, 'enemy_x': 64, 'ball_x': 161, 'ball_y': 161, 'enemy_score': 8, 'player_score': 0}, prev_info - {'player_y': 91, 'player_x': 188, 'enemy_y': 150, 'enemy_x': 64, 'ball_x': 150, 'ball_y': 150, 'enemy_score': 8, 'player_score': 0}
+Teacher LLM returned: plans - 3
+global_step=2902, episodic_return=[-20.]
+[1000, 2000]
+[-19.6, -19.4]
