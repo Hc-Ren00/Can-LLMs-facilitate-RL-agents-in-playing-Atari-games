@@ -1,0 +1,201 @@
+***********: (80, 80)
+obs shape -  (4, 80, 80)
+********IDENTIFIED 230 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 0 has info - {'player_y': 201, 'player_x': 188, 'enemy_y': 112, 'enemy_x': 64, 'ball_x': 145, 'ball_y': 111, 'enemy_score': 17, 'player_score': 0}, prev_info - {'player_y': 152, 'player_x': 188, 'enemy_y': 100, 'enemy_x': 64, 'ball_x': 157, 'ball_y': 99, 'enemy_score': 17, 'player_score': 0}
+global_step=282, episodic_return=[-21.]
+********IDENTIFIED 314 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 1 has info - {'player_y': 100, 'player_x': 188, 'enemy_y': 150, 'enemy_x': 64, 'ball_x': 149, 'ball_y': 149, 'enemy_score': 2, 'player_score': 0}, prev_info - {'player_y': 100, 'player_x': 188, 'enemy_y': 134, 'enemy_x': 64, 'ball_x': 134, 'ball_y': 134, 'enemy_score': 2, 'player_score': 0}
+global_step=543, episodic_return=[-21.]
+********IDENTIFIED 542 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 2 has info - {'player_y': 66, 'player_x': 188, 'enemy_y': 184, 'enemy_x': 64, 'ball_x': 184, 'ball_y': 184, 'enemy_score': 20, 'player_score': 0}, prev_info - {'player_y': 66, 'player_x': 188, 'enemy_y': 174, 'enemy_x': 64, 'ball_x': 174, 'ball_y': 174, 'enemy_score': 20, 'player_score': 0}
+global_step=810, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 808 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 3 has info - {'player_y': 169, 'player_x': 188, 'enemy_y': 86, 'enemy_x': 64, 'ball_x': 170, 'ball_y': 86, 'enemy_score': 20, 'player_score': 0}, prev_info - {'player_y': 122, 'player_x': 188, 'enemy_y': 100, 'enemy_x': 64, 'ball_x': 155, 'ball_y': 101, 'enemy_score': 20, 'player_score': 0}
+global_step=1277, episodic_return=[-21.]
+********IDENTIFIED 1277 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 4 has info - {'player_y': 38, 'player_x': 188, 'enemy_y': 202, 'enemy_x': 64, 'ball_x': 201, 'ball_y': 201, 'enemy_score': 20, 'player_score': 0}, prev_info - {'player_y': 54, 'player_x': 188, 'enemy_y': 190, 'enemy_x': 64, 'ball_x': 189, 'ball_y': 189, 'enemy_score': 20, 'player_score': 0}
+********IDENTIFIED 1463 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 5 has info - {'player_y': 151, 'player_x': 188, 'enemy_y': 162, 'enemy_x': 64, 'ball_x': 162, 'ball_y': 162, 'enemy_score': 15, 'player_score': 0}, prev_info - {'player_y': 176, 'player_x': 188, 'enemy_y': 152, 'enemy_x': 64, 'ball_x': 152, 'ball_y': 152, 'enemy_score': 15, 'player_score': 0}
+global_step=1544, episodic_return=[-21.]
+global_step=1790, episodic_return=[-21.]
+********IDENTIFIED 1540 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 6 has info - {'player_y': 49, 'player_x': 188, 'enemy_y': 146, 'enemy_x': 64, 'ball_x': 145, 'ball_y': 145, 'enemy_score': 20, 'player_score': 0}, prev_info - {'player_y': 102, 'player_x': 188, 'enemy_y': 132, 'enemy_x': 64, 'ball_x': 132, 'ball_y': 132, 'enemy_score': 20, 'player_score': 0}
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 1867 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 7 has info - {'player_y': 77, 'player_x': 188, 'enemy_y': 138, 'enemy_x': 64, 'ball_x': 193, 'ball_y': 150, 'enemy_score': 4, 'player_score': 0}, prev_info - {'player_y': 38, 'player_x': 188, 'enemy_y': 114, 'enemy_x': 64, 'ball_x': 165, 'ball_y': 122, 'enemy_score': 4, 'player_score': 0}
+********IDENTIFIED 2105 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 8 has info - {'player_y': 124, 'player_x': 188, 'enemy_y': 90, 'enemy_x': 64, 'ball_x': 156, 'ball_y': 96, 'enemy_score': 5, 'player_score': 0}, prev_info - {'player_y': 89, 'player_x': 188, 'enemy_y': 68, 'enemy_x': 64, 'ball_x': 132, 'ball_y': 72, 'enemy_score': 5, 'player_score': 0}
+global_step=2349, episodic_return=[-20.]
+********IDENTIFIED 2344 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 9 has info - {'player_y': 152, 'player_x': 188, 'enemy_y': 134, 'enemy_x': 64, 'ball_x': 134, 'ball_y': 134, 'enemy_score': 20, 'player_score': 1}, prev_info - {'player_y': 193, 'player_x': 188, 'enemy_y': 106, 'enemy_x': 64, 'ball_x': 205, 'ball_y': 0, 'enemy_score': 20, 'player_score': 1}
+global_step=2619, episodic_return=[-20.]
+********IDENTIFIED 2780 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 10 has info - {'player_y': 90, 'player_x': 188, 'enemy_y': 72, 'enemy_x': 64, 'ball_x': 183, 'ball_y': 73, 'enemy_score': 12, 'player_score': 0}, prev_info - {'player_y': 54, 'player_x': 188, 'enemy_y': 82, 'enemy_x': 64, 'ball_x': 174, 'ball_y': 82, 'enemy_score': 12, 'player_score': 0}
+global_step=2875, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 2871 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 11 has info - {'player_y': 83, 'player_x': 188, 'enemy_y': 114, 'enemy_x': 64, 'ball_x': 142, 'ball_y': 114, 'enemy_score': 20, 'player_score': 0}, prev_info - {'player_y': 123, 'player_x': 188, 'enemy_y': 124, 'enemy_x': 64, 'ball_x': 131, 'ball_y': 125, 'enemy_score': 20, 'player_score': 0}
+global_step=3266, episodic_return=[-21.]
+********IDENTIFIED 3115 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 12 has info - {'player_y': 169, 'player_x': 188, 'enemy_y': 62, 'enemy_x': 64, 'ball_x': 193, 'ball_y': 63, 'enemy_score': 8, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 72, 'enemy_x': 64, 'ball_x': 183, 'ball_y': 73, 'enemy_score': 8, 'player_score': 0}
+global_step=3539, episodic_return=[-20.]
+********IDENTIFIED 3537 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 13 has info - {'player_y': 136, 'player_x': 188, 'enemy_y': 74, 'enemy_x': 64, 'ball_x': 181, 'ball_y': 75, 'enemy_score': 20, 'player_score': 1}, prev_info - {'player_y': 152, 'player_x': 188, 'enemy_y': 88, 'enemy_x': 64, 'ball_x': 169, 'ball_y': 87, 'enemy_score': 20, 'player_score': 1}
+********IDENTIFIED 3717 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 14 has info - {'player_y': 56, 'player_x': 188, 'enemy_y': 126, 'enemy_x': 64, 'ball_x': 122, 'ball_y': 134, 'enemy_score': 12, 'player_score': 0}, prev_info - {'player_y': 38, 'player_x': 188, 'enemy_y': 106, 'enemy_x': 64, 'ball_x': 144, 'ball_y': 112, 'enemy_score': 12, 'player_score': 0}
+global_step=3862, episodic_return=[-19.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 4081 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 15 has info - {'player_y': 72, 'player_x': 188, 'enemy_y': 152, 'enemy_x': 64, 'ball_x': 152, 'ball_y': 152, 'enemy_score': 6, 'player_score': 0}, prev_info - {'player_y': 94, 'player_x': 188, 'enemy_y': 142, 'enemy_x': 64, 'ball_x': 141, 'ball_y': 141, 'enemy_score': 6, 'player_score': 0}
+global_step=4306, episodic_return=[-20.]
+********IDENTIFIED 4114 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 16 has info - {'player_y': 40, 'player_x': 188, 'enemy_y': 104, 'enemy_x': 64, 'ball_x': 205, 'ball_y': 0, 'enemy_score': 9, 'player_score': 0}, prev_info - {'player_y': 84, 'player_x': 188, 'enemy_y': 126, 'enemy_x': 64, 'ball_x': 205, 'ball_y': 0, 'enemy_score': 9, 'player_score': 0}
+global_step=4599, episodic_return=[-21.]
+********IDENTIFIED 4596 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 17 has info - {'player_y': 137, 'player_x': 188, 'enemy_y': 98, 'enemy_x': 64, 'ball_x': 157, 'ball_y': 99, 'enemy_score': 20, 'player_score': 0}, prev_info - {'player_y': 152, 'player_x': 188, 'enemy_y': 106, 'enemy_x': 64, 'ball_x': 149, 'ball_y': 107, 'enemy_score': 20, 'player_score': 0}
+********IDENTIFIED 4782 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 18 has info - {'player_y': 192, 'player_x': 188, 'enemy_y': 122, 'enemy_x': 64, 'ball_x': 107, 'ball_y': 112, 'enemy_score': 13, 'player_score': 0}, prev_info - {'player_y': 123, 'player_x': 188, 'enemy_y': 150, 'enemy_x': 64, 'ball_x': 91, 'ball_y': 144, 'enemy_score': 13, 'player_score': 0}
+global_step=4898, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 5018 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 19 has info - {'player_y': 136, 'player_x': 188, 'enemy_y': 86, 'enemy_x': 64, 'ball_x': 205, 'ball_y': 0, 'enemy_score': 1, 'player_score': 0}, prev_info - {'player_y': 136, 'player_x': 188, 'enemy_y': 104, 'enemy_x': 64, 'ball_x': 205, 'ball_y': 0, 'enemy_score': 1, 'player_score': 0}
+global_step=5364, episodic_return=[-20.]
+********IDENTIFIED 5355 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 20 has info - {'player_y': 176, 'player_x': 188, 'enemy_y': 100, 'enemy_x': 64, 'ball_x': 132, 'ball_y': 101, 'enemy_score': 20, 'player_score': 1}, prev_info - {'player_y': 118, 'player_x': 188, 'enemy_y': 102, 'enemy_x': 64, 'ball_x': 152, 'ball_y': 101, 'enemy_score': 20, 'player_score': 1}
+********IDENTIFIED 5625 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 21 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 86, 'enemy_x': 64, 'ball_x': 130, 'ball_y': 72, 'enemy_score': 20, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 106, 'enemy_x': 64, 'ball_x': 141, 'ball_y': 94, 'enemy_score': 20, 'player_score': 0}
+global_step=5641, episodic_return=[-21.]
+********IDENTIFIED 5884 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 22 has info - {'player_y': 38, 'player_x': 188, 'enemy_y': 36, 'enemy_x': 64, 'ball_x': 205, 'ball_y': 0, 'enemy_score': 16, 'player_score': 1}, prev_info - {'player_y': 43, 'player_x': 188, 'enemy_y': 56, 'enemy_x': 64, 'ball_x': 200, 'ball_y': 56, 'enemy_score': 15, 'player_score': 1}
+global_step=5942, episodic_return=[-20.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 6104 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 23 has info - {'player_y': 158, 'player_x': 188, 'enemy_y': 156, 'enemy_x': 64, 'ball_x': 155, 'ball_y': 155, 'enemy_score': 8, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 144, 'enemy_x': 64, 'ball_x': 143, 'ball_y': 143, 'enemy_score': 8, 'player_score': 0}
+global_step=6283, episodic_return=[-20.]
+********IDENTIFIED 6279 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 24 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 154, 'enemy_x': 64, 'ball_x': 154, 'ball_y': 154, 'enemy_score': 20, 'player_score': 1}, prev_info - {'player_y': 182, 'player_x': 188, 'enemy_y': 144, 'enemy_x': 64, 'ball_x': 144, 'ball_y': 144, 'enemy_score': 20, 'player_score': 1}
+global_step=6588, episodic_return=[-20.]
+********IDENTIFIED 6433 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 25 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 170, 'enemy_x': 64, 'ball_x': 169, 'ball_y': 169, 'enemy_score': 10, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 156, 'enemy_x': 64, 'ball_x': 156, 'ball_y': 156, 'enemy_score': 10, 'player_score': 0}
+global_step=6907, episodic_return=[-20.]
+********IDENTIFIED 6692 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 26 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 80, 'enemy_x': 64, 'ball_x': 176, 'ball_y': 80, 'enemy_score': 6, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 92, 'enemy_x': 64, 'ball_x': 163, 'ball_y': 93, 'enemy_score': 6, 'player_score': 0}
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 7134 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 27 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 166, 'enemy_x': 64, 'ball_x': 166, 'ball_y': 166, 'enemy_score': 10, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 156, 'enemy_x': 64, 'ball_x': 156, 'ball_y': 156, 'enemy_score': 10, 'player_score': 0}
+global_step=7326, episodic_return=[-20.]
+********IDENTIFIED 7323 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 28 has info - {'player_y': 202, 'player_x': 188, 'enemy_y': 88, 'enemy_x': 64, 'ball_x': 167, 'ball_y': 89, 'enemy_score': 20, 'player_score': 1}, prev_info - {'player_y': 163, 'player_x': 188, 'enemy_y': 102, 'enemy_x': 64, 'ball_x': 153, 'ball_y': 103, 'enemy_score': 20, 'player_score': 1}
+global_step=7655, episodic_return=[-19.]
+********IDENTIFIED 7652 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 29 has info - {'player_y': 44, 'player_x': 188, 'enemy_y': 166, 'enemy_x': 64, 'ball_x': 166, 'ball_y': 166, 'enemy_score': 20, 'player_score': 2}, prev_info - {'player_y': 67, 'player_x': 188, 'enemy_y': 156, 'enemy_x': 64, 'ball_x': 156, 'ball_y': 156, 'enemy_score': 20, 'player_score': 2}
+********IDENTIFIED 7761 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 30 has info - {'player_y': 192, 'player_x': 188, 'enemy_y': 168, 'enemy_x': 64, 'ball_x': 167, 'ball_y': 167, 'enemy_score': 7, 'player_score': 0}, prev_info - {'player_y': 134, 'player_x': 188, 'enemy_y': 158, 'enemy_x': 64, 'ball_x': 157, 'ball_y': 157, 'enemy_score': 7, 'player_score': 0}
+global_step=7983, episodic_return=[-20.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 8184 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 31 has info - {'player_y': 77, 'player_x': 188, 'enemy_y': 142, 'enemy_x': 64, 'ball_x': 141, 'ball_y': 141, 'enemy_score': 15, 'player_score': 0}, prev_info - {'player_y': 147, 'player_x': 188, 'enemy_y': 130, 'enemy_x': 64, 'ball_x': 129, 'ball_y': 129, 'enemy_score': 15, 'player_score': 0}
+global_step=8268, episodic_return=[-21.]
+********IDENTIFIED 8264 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 32 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 154, 'enemy_x': 64, 'ball_x': 153, 'ball_y': 153, 'enemy_score': 20, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 142, 'enemy_x': 64, 'ball_x': 141, 'ball_y': 141, 'enemy_score': 20, 'player_score': 0}
+global_step=8569, episodic_return=[-21.]
+********IDENTIFIED 8558 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 33 has info - {'player_y': 158, 'player_x': 188, 'enemy_y': 86, 'enemy_x': 64, 'ball_x': 206, 'ball_y': 0, 'enemy_score': 20, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 106, 'enemy_x': 64, 'ball_x': 196, 'ball_y': 95, 'enemy_score': 19, 'player_score': 0}
+global_step=8843, episodic_return=[-21.]
+********IDENTIFIED 8707 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 34 has info - {'player_y': 136, 'player_x': 188, 'enemy_y': 90, 'enemy_x': 64, 'ball_x': 166, 'ball_y': 90, 'enemy_score': 9, 'player_score': 0}, prev_info - {'player_y': 136, 'player_x': 188, 'enemy_y': 100, 'enemy_x': 64, 'ball_x': 155, 'ball_y': 101, 'enemy_score': 9, 'player_score': 0}
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 9182 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 35 has info - {'player_y': 112, 'player_x': 188, 'enemy_y': 70, 'enemy_x': 64, 'ball_x': 205, 'ball_y': 0, 'enemy_score': 13, 'player_score': 1}, prev_info - {'player_y': 147, 'player_x': 188, 'enemy_y': 92, 'enemy_x': 64, 'ball_x': 205, 'ball_y': 0, 'enemy_score': 13, 'player_score': 1}
+global_step=9271, episodic_return=[-20.]
+********IDENTIFIED 9341 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 36 has info - {'player_y': 147, 'player_x': 188, 'enemy_y': 170, 'enemy_x': 64, 'ball_x': 169, 'ball_y': 169, 'enemy_score': 5, 'player_score': 0}, prev_info - {'player_y': 193, 'player_x': 188, 'enemy_y': 156, 'enemy_x': 64, 'ball_x': 155, 'ball_y': 155, 'enemy_score': 5, 'player_score': 0}
+global_step=9555, episodic_return=[-20.]
+********IDENTIFIED 9641 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 37 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 172, 'enemy_x': 64, 'ball_x': 171, 'ball_y': 171, 'enemy_score': 6, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 158, 'enemy_x': 64, 'ball_x': 157, 'ball_y': 157, 'enemy_score': 6, 'player_score': 0}
+global_step=9870, episodic_return=[-20.]
+********IDENTIFIED 9868 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 38 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 174, 'enemy_x': 64, 'ball_x': 174, 'ball_y': 174, 'enemy_score': 20, 'player_score': 1}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 164, 'enemy_x': 64, 'ball_x': 164, 'ball_y': 164, 'enemy_score': 20, 'player_score': 1}
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 10047 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 39 has info - {'player_y': 112, 'player_x': 188, 'enemy_y': 198, 'enemy_x': 64, 'ball_x': 198, 'ball_y': 198, 'enemy_score': 3, 'player_score': 0}, prev_info - {'player_y': 77, 'player_x': 188, 'enemy_y': 186, 'enemy_x': 64, 'ball_x': 185, 'ball_y': 185, 'enemy_score': 3, 'player_score': 0}
+global_step=10261, episodic_return=[-21.]
+********IDENTIFIED 10385 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 40 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 168, 'enemy_x': 64, 'ball_x': 168, 'ball_y': 168, 'enemy_score': 7, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 158, 'enemy_x': 64, 'ball_x': 158, 'ball_y': 158, 'enemy_score': 7, 'player_score': 0}
+global_step=10548, episodic_return=[-21.]
+********IDENTIFIED 10585 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 41 has info - {'player_y': 152, 'player_x': 188, 'enemy_y': 174, 'enemy_x': 64, 'ball_x': 174, 'ball_y': 174, 'enemy_score': 2, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 162, 'enemy_x': 64, 'ball_x': 162, 'ball_y': 162, 'enemy_score': 2, 'player_score': 0}
+global_step=10819, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 10816 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 42 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 98, 'enemy_x': 64, 'ball_x': 157, 'ball_y': 99, 'enemy_score': 20, 'player_score': 0}, prev_info - {'player_y': 177, 'player_x': 188, 'enemy_y': 112, 'enemy_x': 64, 'ball_x': 144, 'ball_y': 112, 'enemy_score': 20, 'player_score': 0}
+global_step=11263, episodic_return=[-21.]
+********IDENTIFIED 11021 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 43 has info - {'player_y': 130, 'player_x': 188, 'enemy_y': 140, 'enemy_x': 64, 'ball_x': 140, 'ball_y': 140, 'enemy_score': 1, 'player_score': 0}, prev_info - {'player_y': 130, 'player_x': 188, 'enemy_y': 130, 'enemy_x': 64, 'ball_x': 130, 'ball_y': 130, 'enemy_score': 1, 'player_score': 0}
+********IDENTIFIED 11498 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 44 has info - {'player_y': 135, 'player_x': 188, 'enemy_y': 158, 'enemy_x': 64, 'ball_x': 158, 'ball_y': 158, 'enemy_score': 17, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 144, 'enemy_x': 64, 'ball_x': 143, 'ball_y': 143, 'enemy_score': 17, 'player_score': 0}
+global_step=11558, episodic_return=[-21.]
+********IDENTIFIED 11555 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 45 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 162, 'enemy_x': 64, 'ball_x': 162, 'ball_y': 162, 'enemy_score': 20, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 150, 'enemy_x': 64, 'ball_x': 149, 'ball_y': 149, 'enemy_score': 20, 'player_score': 0}
+global_step=11817, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+********IDENTIFIED 11938 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 46 has info - {'player_y': 130, 'player_x': 188, 'enemy_y': 180, 'enemy_x': 64, 'ball_x': 179, 'ball_y': 179, 'enemy_score': 9, 'player_score': 0}, prev_info - {'player_y': 147, 'player_x': 188, 'enemy_y': 166, 'enemy_x': 64, 'ball_x': 166, 'ball_y': 166, 'enemy_score': 9, 'player_score': 0}
+global_step=12256, episodic_return=[-21.]
+********IDENTIFIED 12160 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 47 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 88, 'enemy_x': 64, 'ball_x': 167, 'ball_y': 89, 'enemy_score': 12, 'player_score': 0}, prev_info - {'player_y': 203, 'player_x': 188, 'enemy_y': 100, 'enemy_x': 64, 'ball_x': 155, 'ball_y': 101, 'enemy_score': 12, 'player_score': 0}
+global_step=12517, episodic_return=[-21.]
+********IDENTIFIED 12449 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 48 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 62, 'enemy_x': 64, 'ball_x': 194, 'ball_y': 62, 'enemy_score': 14, 'player_score': 0}, prev_info - {'player_y': 197, 'player_x': 188, 'enemy_y': 74, 'enemy_x': 64, 'ball_x': 181, 'ball_y': 75, 'enemy_score': 14, 'player_score': 0}
+global_step=12774, episodic_return=[-21.]
+********IDENTIFIED 12775 AS A STRUGGLING STATE*******
+STRUGGLING STATE NO 49 has info - {'player_y': 203, 'player_x': 188, 'enemy_y': 52, 'enemy_x': 64, 'ball_x': 205, 'ball_y': 51, 'enemy_score': 21, 'player_score': 0}, prev_info - None

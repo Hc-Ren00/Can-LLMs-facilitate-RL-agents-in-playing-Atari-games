@@ -1,0 +1,60 @@
+/work/pi_dhruveshpate_umass_edu/project_9/correct_ppo/Can-LLMs-facilitate-RL-agents-in-playing-Atari-games/venv/lib/python3.8/site-packages/gym/envs/registration.py:307: DeprecationWarning: The package name gym_minigrid has been deprecated in favor of minigrid. Please uninstall gym_minigrid and install minigrid with `pip install minigrid`. Future releases will be maintained under the new package name minigrid.
+  fn()
+/work/pi_dhruveshpate_umass_edu/project_9/correct_ppo/Can-LLMs-facilitate-RL-agents-in-playing-Atari-games/venv/lib/python3.8/site-packages/tyro/_fields.py:343: UserWarning: The field target_kl is annotated with type <class 'float'>, but the default value None has type <class 'NoneType'>. We'll try to handle this gracefully, but it may cause unexpected behavior.
+  warnings.warn(
+wandb: Currently logged in as: kkapoor13 (kkapoor-13). Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /work/pi_dhruveshpate_umass_edu/project_9/correct_ppo/Can-LLMs-facilitate-RL-agents-in-playing-Atari-games/expt4/wandb/run-20240513_140534-x6xltlid
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Pong-v4__expt4__1__1715609132
+wandb: ⭐️ View project at https://wandb.ai/kkapoor-13/new-expts
+wandb: 🚀 View run at https://wandb.ai/kkapoor-13/new-expts/runs/x6xltlid
+A.L.E: Arcade Learning Environment (version 0.8.1+53f58b7)
+[Powered by Stella]
+/work/pi_dhruveshpate_umass_edu/project_9/correct_ppo/Can-LLMs-facilitate-RL-agents-in-playing-Atari-games/venv/lib/python3.8/site-packages/torch/autograd/graph.py:744: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+wandb: - 0.259 MB of 0.259 MB uploadedwandb: \ 0.259 MB of 0.259 MB uploadedwandb: | 0.259 MB of 0.259 MB uploadedwandb: / 0.259 MB of 0.259 MB uploadedwandb: - 0.294 MB of 0.294 MB uploadedwandb: 
+wandb: Run history:
+wandb: charts/Contribution_of_KL ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                charts/SPS █▃▃▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    charts/episodic_length ▃▂▂▃▂▁▇▃▂▂▃▆▅▄▄█▃▄▃▄▅▅▆▆▂▄▃▃▃▅▂▃▂▂▄▂▁▂▁
+wandb:    charts/episodic_return ▁▁▁▁▁▁▅▅▁▁▅█▅▁▁▅▁▅▅▅▅▅█▅▁▁▁▅▅▅▁▁▁▁▁▁▁▁▁
+wandb:      charts/learning_rate ████▇▇▇▇▇▆▆▆▆▆▆▅▅▅▅▅▄▄▄▄▄▄▃▃▃▃▃▂▂▂▂▂▂▁▁▁
+wandb:        charts/test_return ██▃▄▃▂▄▁▅▃▆▆
+wandb:               global_step ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:          losses/approx_kl ▁▁▂▄▂▂▃▂▁▃▂▅▇▂▁▃▂▂▄▂▁▃▂▃▂▂▅▁▃▄▃▃▅█▃▁▂▂▁▅
+wandb:           losses/clipfrac ▁▁▁▄▂▁▂▂▁▃▂▅▇▁▁▂▁▁▃▁▁▁▁▂▁▁▄▁▂▃▂▂▄█▂▂▁▁▂▄
+wandb:            losses/entropy ████▇▇▇▆▅▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▆▅▄▅▅▄▄▃▂▂▃▃▂▁
+wandb: losses/explained_variance ▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▃▂▃▃▂▁▂▁▃▃▁▄▂▂▂▄▅█▄▃▇▂█▂
+wandb:      losses/old_approx_kl ▅▇▇▄▄▅▆▇▅▃▇▅▁▃▅▇▅▄█▄▇▅▄▅▆▅▆▅▆▅▅▃▂▇▅█▅▆▅▇
+wandb:        losses/policy_loss ▅▅▅▁▃▅▄▇▅▄▅▄▂▅▄▇▄▆▃▅▅▆▅▃▆▅▆▅▅▅▄▄▃█▅▅▆▆▃▆
+wandb:         losses/value_loss ▅▄▄▄▃▃▂▂▃▃▃▃▄▅▆▅▂▂▂▂▂▃▂▂▂▂▆▁▂▂▂▁▁▁▁▁▁▁▂█
+wandb: 
+wandb: Run summary:
+wandb: charts/Contribution_of_KL 0.0
+wandb:                charts/SPS 10.0
+wandb:    charts/episodic_length 1042.0
+wandb:    charts/episodic_return -21.0
+wandb:      charts/learning_rate 0.00025
+wandb:        charts/test_return -18.4
+wandb:               global_step 12800
+wandb:          losses/approx_kl 0.00538
+wandb:           losses/clipfrac 0.10742
+wandb:            losses/entropy 1.15978
+wandb: losses/explained_variance 0.00236
+wandb:      losses/old_approx_kl 0.01804
+wandb:        losses/policy_loss 0.00101
+wandb:         losses/value_loss 1.12987
+wandb: 
+wandb: 🚀 View run Pong-v4__expt4__1__1715609132 at: https://wandb.ai/kkapoor-13/new-expts/runs/x6xltlid
+wandb: ⭐️ View project at: https://wandb.ai/kkapoor-13/new-expts
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 3 other file(s)
+wandb: Find logs at: ./wandb/run-20240513_140534-x6xltlid/logs
+Traceback (most recent call last):
+  File "expt4.py", line 476, in <module>
+    failed_states+=1
+NameError: name 'failed_states' is not defined
+Traceback (most recent call last):
+  File "expt4.py", line 476, in <module>
+    failed_states+=1
+NameError: name 'failed_states' is not defined
