@@ -1,0 +1,14 @@
+/work/pi_dhruveshpate_umass_edu/project_9/correct_ppo/Can-LLMs-facilitate-RL-agents-in-playing-Atari-games/venv/lib/python3.8/site-packages/gym/envs/registration.py:307: DeprecationWarning: The package name gym_minigrid has been deprecated in favor of minigrid. Please uninstall gym_minigrid and install minigrid with `pip install minigrid`. Future releases will be maintained under the new package name minigrid.
+  fn()
+/work/pi_dhruveshpate_umass_edu/project_9/correct_ppo/Can-LLMs-facilitate-RL-agents-in-playing-Atari-games/venv/lib/python3.8/site-packages/tyro/_fields.py:343: UserWarning: The field target_kl is annotated with type <class 'float'>, but the default value None has type <class 'NoneType'>. We'll try to handle this gracefully, but it may cause unexpected behavior.
+  warnings.warn(
+wandb: Currently logged in as: kkapoor13 (kkapoor-13). Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /work/pi_dhruveshpate_umass_edu/project_9/correct_ppo/Can-LLMs-facilitate-RL-agents-in-playing-Atari-games/expt6/wandb/run-20240514_134920-1p003hps
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Pong-v4__expt6__1__1715694558
+wandb: ⭐️ View project at https://wandb.ai/kkapoor-13/fixed-code
+wandb: 🚀 View run at https://wandb.ai/kkapoor-13/fixed-code/runs/1p003hps
+A.L.E: Arcade Learning Environment (version 0.8.1+53f58b7)
+[Powered by Stella]
+slurmstepd-gpu009: error: *** JOB 22779123 ON gpu009 CANCELLED AT 2024-05-14T14:11:28 ***

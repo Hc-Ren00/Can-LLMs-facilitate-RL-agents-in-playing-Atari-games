@@ -1,0 +1,54 @@
+/work/pi_dhruveshpate_umass_edu/project_9/correct_ppo/Can-LLMs-facilitate-RL-agents-in-playing-Atari-games/venv/lib/python3.8/site-packages/gym/envs/registration.py:307: DeprecationWarning: The package name gym_minigrid has been deprecated in favor of minigrid. Please uninstall gym_minigrid and install minigrid with `pip install minigrid`. Future releases will be maintained under the new package name minigrid.
+  fn()
+/work/pi_dhruveshpate_umass_edu/project_9/correct_ppo/Can-LLMs-facilitate-RL-agents-in-playing-Atari-games/venv/lib/python3.8/site-packages/tyro/_fields.py:343: UserWarning: The field target_kl is annotated with type <class 'float'>, but the default value None has type <class 'NoneType'>. We'll try to handle this gracefully, but it may cause unexpected behavior.
+  warnings.warn(
+wandb: Currently logged in as: kkapoor13 (kkapoor-13). Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /work/pi_dhruveshpate_umass_edu/project_9/correct_ppo/Can-LLMs-facilitate-RL-agents-in-playing-Atari-games/expt7/wandb/run-20240530_014722-4e2wnrl6
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Pong-v4__expt7__1__1717033638
+wandb: ⭐️ View project at https://wandb.ai/kkapoor-13/fixed-code
+wandb: 🚀 View run at https://wandb.ai/kkapoor-13/fixed-code/runs/4e2wnrl6
+A.L.E: Arcade Learning Environment (version 0.8.1+53f58b7)
+[Powered by Stella]
+/work/pi_dhruveshpate_umass_edu/project_9/correct_ppo/Can-LLMs-facilitate-RL-agents-in-playing-Atari-games/venv/lib/python3.8/site-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv2d(input, weight, bias, self.stride,
+/work/pi_dhruveshpate_umass_edu/project_9/correct_ppo/Can-LLMs-facilitate-RL-agents-in-playing-Atari-games/venv/lib/python3.8/site-packages/torch/autograd/graph.py:744: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+wandb: - 0.000 MB of 0.000 MB uploadedwandb: \ 0.000 MB of 0.000 MB uploadedwandb: | 0.000 MB of 0.000 MB uploadedwandb: / 0.000 MB of 0.000 MB uploadedwandb: - 0.000 MB of 0.000 MB uploadedwandb: \ 0.000 MB of 0.000 MB uploadedwandb: | 0.000 MB of 0.000 MB uploadedwandb: / 0.035 MB of 0.035 MB uploadedwandb: - 0.035 MB of 0.035 MB uploadedwandb: \ 0.035 MB of 0.035 MB uploadedwandb: | 0.041 MB of 0.047 MB uploadedwandb: / 0.047 MB of 0.047 MB uploadedwandb: 
+wandb: Run history:
+wandb:      charts/learning_rate ▁
+wandb:               global_step ▁█
+wandb:          losses/approx_kl ▁
+wandb:           losses/clipfrac ▁
+wandb:            losses/entropy ▁
+wandb: losses/explained_variance ▁
+wandb:      losses/old_approx_kl ▁
+wandb:        losses/policy_loss ▁
+wandb:         losses/total_loss ▁
+wandb:         losses/value_loss ▁
+wandb: 
+wandb: Run summary:
+wandb:      charts/learning_rate 0.00025
+wandb:               global_step 128
+wandb:          losses/approx_kl 0.00063
+wandb:           losses/clipfrac 0.0
+wandb:            losses/entropy 1.79119
+wandb: losses/explained_variance 0.00016
+wandb:      losses/old_approx_kl 0.00664
+wandb:        losses/policy_loss -0.00172
+wandb:         losses/total_loss 0.18928
+wandb:         losses/value_loss 0.66859
+wandb: 
+wandb: 🚀 View run Pong-v4__expt7__1__1717033638 at: https://wandb.ai/kkapoor-13/fixed-code/runs/4e2wnrl6
+wandb: ⭐️ View project at: https://wandb.ai/kkapoor-13/fixed-code
+wandb: Synced 5 W&B file(s), 0 media file(s), 3 artifact file(s) and 2 other file(s)
+wandb: Find logs at: ./wandb/run-20240530_014722-4e2wnrl6/logs
+Traceback (most recent call last):
+  File "expt7.py", line 679, in <module>
+    writer.add_scalar("losses/kickstarting_loss", kickstarting_loss.item(), global_step)
+AttributeError: 'int' object has no attribute 'item'
+Traceback (most recent call last):
+  File "expt7.py", line 679, in <module>
+    writer.add_scalar("losses/kickstarting_loss", kickstarting_loss.item(), global_step)
+AttributeError: 'int' object has no attribute 'item'

@@ -1,0 +1,1958 @@
+obs shape -  (4, 84, 84)
+global_step=282, episodic_return=[-21.]
+global_step=554, episodic_return=[-21.]
+global_step=801, episodic_return=[-21.]
+global_step=1323, episodic_return=[-19.]
+global_step=1629, episodic_return=[-21.]
+global_step=1912, episodic_return=[-21.]
+global_step=2278, episodic_return=[-21.]
+global_step=2532, episodic_return=[-21.]
+global_step=2846, episodic_return=[-21.]
+global_step=3286, episodic_return=[-21.]
+global_step=3557, episodic_return=[-21.]
+global_step=3820, episodic_return=[-21.]
+global_step=4274, episodic_return=[-21.]
+global_step=4587, episodic_return=[-19.]
+global_step=4844, episodic_return=[-21.]
+global_step=5290, episodic_return=[-21.]
+global_step=5569, episodic_return=[-21.]
+global_step=5854, episodic_return=[-21.]
+global_step=6308, episodic_return=[-21.]
+global_step=6627, episodic_return=[-21.]
+global_step=6916, episodic_return=[-20.]
+global_step=7309, episodic_return=[-21.]
+global_step=7655, episodic_return=[-19.]
+global_step=7981, episodic_return=[-21.]
+global_step=8307, episodic_return=[-21.]
+global_step=8598, episodic_return=[-21.]
+global_step=8844, episodic_return=[-21.]
+global_step=9286, episodic_return=[-21.]
+global_step=9556, episodic_return=[-21.]
+global_step=9828, episodic_return=[-21.]
+global_step=10340, episodic_return=[-19.]
+global_step=10585, episodic_return=[-21.]
+global_step=10829, episodic_return=[-21.]
+global_step=11300, episodic_return=[-20.]
+global_step=11646, episodic_return=[-20.]
+global_step=11964, episodic_return=[-20.]
+global_step=12311, episodic_return=[-20.]
+global_step=12574, episodic_return=[-21.]
+global_step=12830, episodic_return=[-21.]
+global_step=13270, episodic_return=[-21.]
+global_step=13575, episodic_return=[-21.]
+global_step=13822, episodic_return=[-21.]
+global_step=14246, episodic_return=[-21.]
+global_step=14557, episodic_return=[-21.]
+global_step=14830, episodic_return=[-20.]
+global_step=15275, episodic_return=[-20.]
+global_step=15548, episodic_return=[-21.]
+global_step=15829, episodic_return=[-21.]
+global_step=16290, episodic_return=[-21.]
+global_step=16626, episodic_return=[-19.]
+global_step=16942, episodic_return=[-21.]
+global_step=17338, episodic_return=[-19.]
+global_step=17628, episodic_return=[-20.]
+global_step=17918, episodic_return=[-20.]
+global_step=18280, episodic_return=[-21.]
+global_step=18555, episodic_return=[-21.]
+global_step=18803, episodic_return=[-21.]
+global_step=19278, episodic_return=[-20.]
+global_step=19645, episodic_return=[-20.]
+global_step=19916, episodic_return=[-21.]
+global_step=20274, episodic_return=[-21.]
+global_step=20566, episodic_return=[-21.]
+global_step=20901, episodic_return=[-19.]
+global_step=21271, episodic_return=[-21.]
+global_step=21629, episodic_return=[-20.]
+global_step=21970, episodic_return=[-20.]
+global_step=22281, episodic_return=[-21.]
+global_step=22533, episodic_return=[-21.]
+global_step=22833, episodic_return=[-21.]
+global_step=23310, episodic_return=[-21.]
+global_step=23611, episodic_return=[-21.]
+global_step=23906, episodic_return=[-20.]
+global_step=24309, episodic_return=[-20.]
+global_step=24562, episodic_return=[-21.]
+global_step=24858, episodic_return=[-20.]
+global_step=25356, episodic_return=[-19.]
+global_step=25639, episodic_return=[-20.]
+global_step=25926, episodic_return=[-21.]
+global_step=26313, episodic_return=[-20.]
+global_step=26587, episodic_return=[-21.]
+global_step=26884, episodic_return=[-21.]
+global_step=27318, episodic_return=[-19.]
+global_step=27589, episodic_return=[-21.]
+global_step=27882, episodic_return=[-21.]
+global_step=28268, episodic_return=[-21.]
+global_step=28604, episodic_return=[-20.]
+global_step=28855, episodic_return=[-21.]
+global_step=29290, episodic_return=[-21.]
+global_step=29570, episodic_return=[-21.]
+global_step=29856, episodic_return=[-21.]
+global_step=30263, episodic_return=[-21.]
+global_step=30592, episodic_return=[-20.]
+global_step=30842, episodic_return=[-21.]
+global_step=31279, episodic_return=[-21.]
+global_step=31534, episodic_return=[-21.]
+global_step=31820, episodic_return=[-21.]
+global_step=32320, episodic_return=[-21.]
+global_step=32593, episodic_return=[-21.]
+global_step=32969, episodic_return=[-20.]
+global_step=33293, episodic_return=[-21.]
+global_step=33578, episodic_return=[-20.]
+global_step=33859, episodic_return=[-21.]
+global_step=34259, episodic_return=[-21.]
+global_step=34546, episodic_return=[-21.]
+global_step=34920, episodic_return=[-21.]
+global_step=35298, episodic_return=[-20.]
+global_step=35604, episodic_return=[-19.]
+global_step=35890, episodic_return=[-21.]
+global_step=36331, episodic_return=[-20.]
+global_step=36582, episodic_return=[-21.]
+global_step=36875, episodic_return=[-21.]
+global_step=37294, episodic_return=[-21.]
+global_step=37563, episodic_return=[-21.]
+global_step=37836, episodic_return=[-21.]
+global_step=38307, episodic_return=[-20.]
+global_step=38584, episodic_return=[-20.]
+global_step=38861, episodic_return=[-21.]
+global_step=39326, episodic_return=[-19.]
+global_step=39657, episodic_return=[-20.]
+global_step=39963, episodic_return=[-19.]
+global_step=40295, episodic_return=[-20.]
+global_step=40600, episodic_return=[-21.]
+global_step=40881, episodic_return=[-21.]
+global_step=41279, episodic_return=[-21.]
+global_step=41617, episodic_return=[-21.]
+global_step=41955, episodic_return=[-20.]
+global_step=42307, episodic_return=[-20.]
+global_step=42593, episodic_return=[-20.]
+global_step=42850, episodic_return=[-21.]
+global_step=43298, episodic_return=[-21.]
+global_step=43563, episodic_return=[-21.]
+global_step=43841, episodic_return=[-21.]
+global_step=44255, episodic_return=[-21.]
+global_step=44542, episodic_return=[-21.]
+global_step=44829, episodic_return=[-21.]
+global_step=45324, episodic_return=[-20.]
+global_step=45620, episodic_return=[-21.]
+global_step=45897, episodic_return=[-20.]
+global_step=46340, episodic_return=[-21.]
+global_step=46621, episodic_return=[-21.]
+global_step=46878, episodic_return=[-21.]
+global_step=47304, episodic_return=[-20.]
+global_step=47659, episodic_return=[-20.]
+global_step=47980, episodic_return=[-21.]
+global_step=48276, episodic_return=[-21.]
+global_step=48581, episodic_return=[-20.]
+global_step=48868, episodic_return=[-21.]
+global_step=49279, episodic_return=[-21.]
+global_step=49532, episodic_return=[-21.]
+global_step=49821, episodic_return=[-20.]
+global_step=50364, episodic_return=[-19.]
+global_step=50629, episodic_return=[-21.]
+global_step=50880, episodic_return=[-21.]
+global_step=51300, episodic_return=[-20.]
+global_step=51586, episodic_return=[-21.]
+global_step=51886, episodic_return=[-21.]
+global_step=52321, episodic_return=[-20.]
+global_step=52658, episodic_return=[-19.]
+global_step=52966, episodic_return=[-20.]
+global_step=53295, episodic_return=[-20.]
+global_step=53602, episodic_return=[-21.]
+global_step=53951, episodic_return=[-21.]
+global_step=54281, episodic_return=[-20.]
+global_step=54568, episodic_return=[-21.]
+global_step=54815, episodic_return=[-21.]
+global_step=55253, episodic_return=[-21.]
+global_step=55565, episodic_return=[-21.]
+global_step=55887, episodic_return=[-20.]
+global_step=56303, episodic_return=[-20.]
+global_step=56557, episodic_return=[-21.]
+global_step=56816, episodic_return=[-21.]
+global_step=57313, episodic_return=[-21.]
+global_step=57638, episodic_return=[-20.]
+global_step=57906, episodic_return=[-21.]
+global_step=58277, episodic_return=[-21.]
+global_step=58556, episodic_return=[-21.]
+global_step=58843, episodic_return=[-21.]
+global_step=59261, episodic_return=[-21.]
+global_step=59529, episodic_return=[-21.]
+global_step=59811, episodic_return=[-20.]
+global_step=60246, episodic_return=[-21.]
+global_step=60526, episodic_return=[-21.]
+global_step=60835, episodic_return=[-21.]
+global_step=61277, episodic_return=[-21.]
+global_step=61545, episodic_return=[-21.]
+global_step=61813, episodic_return=[-21.]
+global_step=62291, episodic_return=[-21.]
+global_step=62538, episodic_return=[-21.]
+global_step=62843, episodic_return=[-20.]
+global_step=63282, episodic_return=[-21.]
+global_step=63611, episodic_return=[-20.]
+global_step=63876, episodic_return=[-21.]
+global_step=64283, episodic_return=[-20.]
+global_step=64550, episodic_return=[-21.]
+global_step=64906, episodic_return=[-19.]
+global_step=65310, episodic_return=[-19.]
+global_step=65586, episodic_return=[-21.]
+global_step=65851, episodic_return=[-21.]
+global_step=66299, episodic_return=[-20.]
+global_step=66583, episodic_return=[-21.]
+global_step=66839, episodic_return=[-21.]
+global_step=67305, episodic_return=[-20.]
+global_step=67603, episodic_return=[-20.]
+global_step=67911, episodic_return=[-21.]
+global_step=68317, episodic_return=[-21.]
+global_step=68589, episodic_return=[-21.]
+global_step=68847, episodic_return=[-21.]
+global_step=69269, episodic_return=[-21.]
+global_step=69567, episodic_return=[-21.]
+global_step=69835, episodic_return=[-21.]
+global_step=70321, episodic_return=[-21.]
+global_step=70622, episodic_return=[-21.]
+global_step=70892, episodic_return=[-21.]
+global_step=71298, episodic_return=[-21.]
+global_step=71579, episodic_return=[-20.]
+global_step=71892, episodic_return=[-21.]
+global_step=72277, episodic_return=[-21.]
+global_step=72579, episodic_return=[-21.]
+global_step=72913, episodic_return=[-21.]
+global_step=73311, episodic_return=[-21.]
+global_step=73559, episodic_return=[-21.]
+global_step=73870, episodic_return=[-20.]
+global_step=74311, episodic_return=[-20.]
+global_step=74621, episodic_return=[-21.]
+global_step=74944, episodic_return=[-21.]
+global_step=75308, episodic_return=[-19.]
+global_step=75661, episodic_return=[-21.]
+global_step=75957, episodic_return=[-21.]
+global_step=76304, episodic_return=[-20.]
+global_step=76616, episodic_return=[-21.]
+global_step=76882, episodic_return=[-21.]
+global_step=77290, episodic_return=[-21.]
+global_step=77607, episodic_return=[-20.]
+global_step=77888, episodic_return=[-21.]
+global_step=78257, episodic_return=[-21.]
+global_step=78604, episodic_return=[-21.]
+global_step=78869, episodic_return=[-21.]
+global_step=79275, episodic_return=[-21.]
+global_step=79585, episodic_return=[-21.]
+global_step=79936, episodic_return=[-21.]
+global_step=80317, episodic_return=[-21.]
+global_step=80587, episodic_return=[-21.]
+global_step=80874, episodic_return=[-21.]
+global_step=81246, episodic_return=[-21.]
+global_step=81502, episodic_return=[-21.]
+global_step=81770, episodic_return=[-21.]
+global_step=82346, episodic_return=[-18.]
+global_step=82603, episodic_return=[-21.]
+global_step=82903, episodic_return=[-21.]
+global_step=83339, episodic_return=[-20.]
+global_step=83719, episodic_return=[-18.]
+global_step=84366, episodic_return=[-20.]
+global_step=84648, episodic_return=[-20.]
+global_step=84938, episodic_return=[-21.]
+global_step=85276, episodic_return=[-21.]
+global_step=85574, episodic_return=[-20.]
+global_step=85886, episodic_return=[-21.]
+global_step=86258, episodic_return=[-21.]
+global_step=86525, episodic_return=[-21.]
+global_step=86809, episodic_return=[-20.]
+global_step=87333, episodic_return=[-20.]
+global_step=87639, episodic_return=[-19.]
+global_step=87907, episodic_return=[-21.]
+global_step=88276, episodic_return=[-21.]
+global_step=88551, episodic_return=[-21.]
+global_step=88859, episodic_return=[-20.]
+global_step=89301, episodic_return=[-21.]
+global_step=89572, episodic_return=[-21.]
+global_step=89932, episodic_return=[-19.]
+global_step=90324, episodic_return=[-21.]
+global_step=90627, episodic_return=[-21.]
+global_step=90910, episodic_return=[-21.]
+global_step=91295, episodic_return=[-20.]
+global_step=91546, episodic_return=[-21.]
+global_step=91849, episodic_return=[-20.]
+global_step=92249, episodic_return=[-21.]
+global_step=92532, episodic_return=[-20.]
+global_step=92866, episodic_return=[-20.]
+global_step=93307, episodic_return=[-20.]
+global_step=93662, episodic_return=[-19.]
+global_step=93992, episodic_return=[-20.]
+global_step=94328, episodic_return=[-21.]
+global_step=94579, episodic_return=[-21.]
+global_step=94855, episodic_return=[-20.]
+global_step=95262, episodic_return=[-21.]
+global_step=95535, episodic_return=[-21.]
+global_step=95831, episodic_return=[-21.]
+global_step=96254, episodic_return=[-21.]
+global_step=96597, episodic_return=[-21.]
+global_step=96929, episodic_return=[-20.]
+global_step=97313, episodic_return=[-21.]
+global_step=97582, episodic_return=[-21.]
+global_step=97868, episodic_return=[-21.]
+global_step=98317, episodic_return=[-21.]
+global_step=98651, episodic_return=[-21.]
+global_step=98924, episodic_return=[-21.]
+global_step=99252, episodic_return=[-21.]
+global_step=99568, episodic_return=[-21.]
+global_step=99846, episodic_return=[-20.]
+global_step=100326, episodic_return=[-20.]
+global_step=100629, episodic_return=[-21.]
+global_step=100906, episodic_return=[-21.]
+global_step=101250, episodic_return=[-21.]
+global_step=101551, episodic_return=[-21.]
+global_step=101832, episodic_return=[-20.]
+global_step=102350, episodic_return=[-20.]
+global_step=102646, episodic_return=[-20.]
+global_step=102966, episodic_return=[-20.]
+global_step=103302, episodic_return=[-21.]
+global_step=103611, episodic_return=[-21.]
+global_step=103866, episodic_return=[-21.]
+global_step=104307, episodic_return=[-21.]
+global_step=104558, episodic_return=[-21.]
+global_step=104824, episodic_return=[-21.]
+global_step=105265, episodic_return=[-21.]
+global_step=105567, episodic_return=[-21.]
+global_step=105847, episodic_return=[-21.]
+global_step=106298, episodic_return=[-21.]
+global_step=106661, episodic_return=[-20.]
+global_step=106953, episodic_return=[-21.]
+global_step=107307, episodic_return=[-20.]
+global_step=107579, episodic_return=[-21.]
+global_step=107884, episodic_return=[-21.]
+global_step=108326, episodic_return=[-19.]
+global_step=108601, episodic_return=[-21.]
+global_step=108916, episodic_return=[-19.]
+global_step=109305, episodic_return=[-21.]
+global_step=109577, episodic_return=[-21.]
+global_step=109820, episodic_return=[-21.]
+global_step=110286, episodic_return=[-20.]
+global_step=110602, episodic_return=[-20.]
+global_step=110849, episodic_return=[-21.]
+global_step=111295, episodic_return=[-21.]
+global_step=111585, episodic_return=[-21.]
+global_step=111860, episodic_return=[-21.]
+global_step=112301, episodic_return=[-21.]
+global_step=112593, episodic_return=[-21.]
+global_step=112896, episodic_return=[-21.]
+global_step=113260, episodic_return=[-21.]
+global_step=113558, episodic_return=[-21.]
+global_step=113812, episodic_return=[-21.]
+global_step=114327, episodic_return=[-21.]
+global_step=114626, episodic_return=[-21.]
+global_step=114942, episodic_return=[-20.]
+global_step=115301, episodic_return=[-20.]
+global_step=115553, episodic_return=[-21.]
+global_step=115848, episodic_return=[-21.]
+global_step=116331, episodic_return=[-21.]
+global_step=116627, episodic_return=[-21.]
+global_step=116932, episodic_return=[-20.]
+global_step=117305, episodic_return=[-21.]
+global_step=117604, episodic_return=[-21.]
+global_step=117951, episodic_return=[-19.]
+global_step=118324, episodic_return=[-19.]
+global_step=118631, episodic_return=[-20.]
+global_step=118942, episodic_return=[-21.]
+global_step=119269, episodic_return=[-21.]
+global_step=119611, episodic_return=[-20.]
+global_step=119862, episodic_return=[-21.]
+global_step=120295, episodic_return=[-20.]
+global_step=120560, episodic_return=[-21.]
+global_step=120924, episodic_return=[-21.]
+global_step=121265, episodic_return=[-21.]
+global_step=121587, episodic_return=[-21.]
+global_step=121900, episodic_return=[-20.]
+global_step=122270, episodic_return=[-21.]
+global_step=122552, episodic_return=[-20.]
+global_step=122868, episodic_return=[-20.]
+global_step=123337, episodic_return=[-21.]
+global_step=123607, episodic_return=[-21.]
+global_step=123906, episodic_return=[-21.]
+global_step=124361, episodic_return=[-19.]
+global_step=124650, episodic_return=[-21.]
+global_step=124997, episodic_return=[-21.]
+global_step=125323, episodic_return=[-20.]
+global_step=125588, episodic_return=[-21.]
+global_step=126298, episodic_return=[-21.]
+global_step=126575, episodic_return=[-21.]
+global_step=126843, episodic_return=[-21.]
+global_step=127260, episodic_return=[-21.]
+global_step=127524, episodic_return=[-21.]
+global_step=127773, episodic_return=[-21.]
+global_step=128276, episodic_return=[-21.]
+global_step=128528, episodic_return=[-21.]
+global_step=128776, episodic_return=[-21.]
+global_step=129251, episodic_return=[-21.]
+global_step=129531, episodic_return=[-21.]
+global_step=129777, episodic_return=[-21.]
+global_step=130343, episodic_return=[-21.]
+global_step=130668, episodic_return=[-20.]
+global_step=130945, episodic_return=[-21.]
+global_step=131276, episodic_return=[-20.]
+global_step=131528, episodic_return=[-21.]
+global_step=131778, episodic_return=[-21.]
+global_step=132250, episodic_return=[-21.]
+global_step=132503, episodic_return=[-21.]
+global_step=132754, episodic_return=[-21.]
+global_step=133248, episodic_return=[-21.]
+global_step=133494, episodic_return=[-21.]
+global_step=133741, episodic_return=[-21.]
+global_step=133992, episodic_return=[-21.]
+global_step=134248, episodic_return=[-21.]
+global_step=134496, episodic_return=[-21.]
+global_step=134743, episodic_return=[-21.]
+global_step=134994, episodic_return=[-21.]
+global_step=135254, episodic_return=[-21.]
+global_step=135502, episodic_return=[-21.]
+global_step=135757, episodic_return=[-21.]
+global_step=136255, episodic_return=[-21.]
+global_step=136502, episodic_return=[-21.]
+global_step=136754, episodic_return=[-21.]
+global_step=137252, episodic_return=[-21.]
+global_step=137502, episodic_return=[-21.]
+global_step=137752, episodic_return=[-21.]
+global_step=138247, episodic_return=[-21.]
+global_step=138495, episodic_return=[-21.]
+global_step=138740, episodic_return=[-21.]
+global_step=138989, episodic_return=[-21.]
+global_step=139250, episodic_return=[-21.]
+global_step=139500, episodic_return=[-21.]
+global_step=139751, episodic_return=[-21.]
+global_step=139998, episodic_return=[-21.]
+global_step=140254, episodic_return=[-21.]
+global_step=140505, episodic_return=[-21.]
+global_step=140754, episodic_return=[-21.]
+global_step=141245, episodic_return=[-21.]
+global_step=141496, episodic_return=[-21.]
+global_step=141744, episodic_return=[-21.]
+global_step=141990, episodic_return=[-21.]
+global_step=142248, episodic_return=[-21.]
+global_step=142496, episodic_return=[-21.]
+global_step=142746, episodic_return=[-21.]
+global_step=142996, episodic_return=[-21.]
+global_step=143255, episodic_return=[-21.]
+global_step=143503, episodic_return=[-21.]
+global_step=143754, episodic_return=[-21.]
+global_step=143997, episodic_return=[-21.]
+global_step=144243, episodic_return=[-21.]
+global_step=144494, episodic_return=[-21.]
+global_step=144743, episodic_return=[-21.]
+global_step=144992, episodic_return=[-21.]
+global_step=145250, episodic_return=[-21.]
+global_step=145494, episodic_return=[-21.]
+global_step=145749, episodic_return=[-21.]
+global_step=145997, episodic_return=[-21.]
+global_step=146252, episodic_return=[-21.]
+global_step=146498, episodic_return=[-21.]
+global_step=146749, episodic_return=[-21.]
+global_step=147246, episodic_return=[-21.]
+global_step=147497, episodic_return=[-21.]
+global_step=147749, episodic_return=[-21.]
+global_step=147998, episodic_return=[-21.]
+global_step=148251, episodic_return=[-21.]
+global_step=148505, episodic_return=[-21.]
+global_step=148752, episodic_return=[-21.]
+global_step=148999, episodic_return=[-21.]
+global_step=149251, episodic_return=[-21.]
+global_step=149499, episodic_return=[-21.]
+global_step=149744, episodic_return=[-21.]
+global_step=149994, episodic_return=[-21.]
+global_step=150249, episodic_return=[-21.]
+global_step=150501, episodic_return=[-21.]
+global_step=150746, episodic_return=[-21.]
+global_step=150991, episodic_return=[-21.]
+global_step=151250, episodic_return=[-21.]
+global_step=151499, episodic_return=[-21.]
+global_step=151751, episodic_return=[-21.]
+global_step=152000, episodic_return=[-21.]
+global_step=152245, episodic_return=[-21.]
+global_step=152500, episodic_return=[-21.]
+global_step=152748, episodic_return=[-21.]
+global_step=152993, episodic_return=[-21.]
+global_step=153248, episodic_return=[-21.]
+global_step=153492, episodic_return=[-21.]
+global_step=153742, episodic_return=[-21.]
+global_step=153989, episodic_return=[-21.]
+global_step=154246, episodic_return=[-21.]
+global_step=154495, episodic_return=[-21.]
+global_step=154744, episodic_return=[-21.]
+global_step=154988, episodic_return=[-21.]
+global_step=155245, episodic_return=[-21.]
+global_step=155493, episodic_return=[-21.]
+global_step=155747, episodic_return=[-21.]
+global_step=155991, episodic_return=[-21.]
+global_step=156246, episodic_return=[-21.]
+global_step=156495, episodic_return=[-21.]
+global_step=156741, episodic_return=[-21.]
+global_step=156991, episodic_return=[-21.]
+global_step=157247, episodic_return=[-21.]
+global_step=157495, episodic_return=[-21.]
+global_step=157744, episodic_return=[-21.]
+global_step=158249, episodic_return=[-21.]
+global_step=158501, episodic_return=[-21.]
+global_step=158751, episodic_return=[-21.]
+global_step=158995, episodic_return=[-21.]
+global_step=159250, episodic_return=[-21.]
+global_step=159495, episodic_return=[-21.]
+global_step=159741, episodic_return=[-21.]
+global_step=159997, episodic_return=[-21.]
+global_step=160253, episodic_return=[-21.]
+global_step=160502, episodic_return=[-21.]
+global_step=160752, episodic_return=[-21.]
+global_step=161246, episodic_return=[-21.]
+global_step=161503, episodic_return=[-21.]
+global_step=161754, episodic_return=[-21.]
+global_step=162251, episodic_return=[-21.]
+global_step=162501, episodic_return=[-21.]
+global_step=162745, episodic_return=[-21.]
+global_step=162996, episodic_return=[-21.]
+global_step=163250, episodic_return=[-21.]
+global_step=163501, episodic_return=[-21.]
+global_step=163748, episodic_return=[-21.]
+global_step=163992, episodic_return=[-21.]
+global_step=164253, episodic_return=[-21.]
+global_step=164506, episodic_return=[-21.]
+global_step=164759, episodic_return=[-21.]
+global_step=165255, episodic_return=[-21.]
+global_step=165510, episodic_return=[-21.]
+global_step=165764, episodic_return=[-21.]
+global_step=166248, episodic_return=[-21.]
+global_step=166495, episodic_return=[-21.]
+global_step=166742, episodic_return=[-21.]
+global_step=166988, episodic_return=[-21.]
+global_step=167249, episodic_return=[-21.]
+global_step=167506, episodic_return=[-21.]
+global_step=167746, episodic_return=[-21.]
+global_step=167999, episodic_return=[-21.]
+global_step=168251, episodic_return=[-21.]
+global_step=168503, episodic_return=[-21.]
+global_step=168753, episodic_return=[-21.]
+global_step=169245, episodic_return=[-21.]
+global_step=169498, episodic_return=[-21.]
+global_step=169749, episodic_return=[-21.]
+global_step=169998, episodic_return=[-21.]
+global_step=170245, episodic_return=[-21.]
+global_step=170493, episodic_return=[-21.]
+global_step=170737, episodic_return=[-21.]
+global_step=170989, episodic_return=[-21.]
+global_step=171251, episodic_return=[-21.]
+global_step=171506, episodic_return=[-21.]
+global_step=171757, episodic_return=[-21.]
+global_step=172251, episodic_return=[-21.]
+global_step=172499, episodic_return=[-21.]
+global_step=172750, episodic_return=[-21.]
+global_step=173247, episodic_return=[-21.]
+global_step=173502, episodic_return=[-21.]
+global_step=173752, episodic_return=[-21.]
+global_step=173998, episodic_return=[-21.]
+global_step=174248, episodic_return=[-21.]
+global_step=174498, episodic_return=[-21.]
+global_step=174749, episodic_return=[-21.]
+global_step=174999, episodic_return=[-21.]
+global_step=175248, episodic_return=[-21.]
+global_step=175494, episodic_return=[-21.]
+global_step=175742, episodic_return=[-21.]
+global_step=175994, episodic_return=[-21.]
+global_step=176247, episodic_return=[-21.]
+global_step=176494, episodic_return=[-21.]
+global_step=176741, episodic_return=[-21.]
+global_step=176988, episodic_return=[-21.]
+global_step=177253, episodic_return=[-21.]
+global_step=177500, episodic_return=[-21.]
+global_step=177746, episodic_return=[-21.]
+global_step=177996, episodic_return=[-21.]
+global_step=178248, episodic_return=[-21.]
+global_step=178499, episodic_return=[-21.]
+global_step=178748, episodic_return=[-21.]
+global_step=178995, episodic_return=[-21.]
+global_step=179255, episodic_return=[-21.]
+global_step=179509, episodic_return=[-21.]
+global_step=179760, episodic_return=[-21.]
+global_step=180247, episodic_return=[-21.]
+global_step=180494, episodic_return=[-21.]
+global_step=180741, episodic_return=[-21.]
+global_step=180989, episodic_return=[-21.]
+global_step=181246, episodic_return=[-21.]
+global_step=181492, episodic_return=[-21.]
+global_step=181745, episodic_return=[-21.]
+global_step=181995, episodic_return=[-21.]
+global_step=182248, episodic_return=[-21.]
+global_step=182494, episodic_return=[-21.]
+global_step=182739, episodic_return=[-21.]
+global_step=182992, episodic_return=[-21.]
+global_step=183247, episodic_return=[-21.]
+global_step=183493, episodic_return=[-21.]
+global_step=183738, episodic_return=[-21.]
+global_step=183986, episodic_return=[-21.]
+global_step=184249, episodic_return=[-21.]
+global_step=184499, episodic_return=[-21.]
+global_step=184753, episodic_return=[-21.]
+global_step=185000, episodic_return=[-21.]
+global_step=185253, episodic_return=[-21.]
+global_step=185503, episodic_return=[-21.]
+global_step=185751, episodic_return=[-21.]
+global_step=186245, episodic_return=[-21.]
+global_step=186495, episodic_return=[-21.]
+global_step=186751, episodic_return=[-21.]
+global_step=187000, episodic_return=[-21.]
+global_step=187249, episodic_return=[-21.]
+global_step=187501, episodic_return=[-21.]
+global_step=187756, episodic_return=[-21.]
+global_step=188246, episodic_return=[-21.]
+global_step=188490, episodic_return=[-21.]
+global_step=188739, episodic_return=[-21.]
+global_step=188982, episodic_return=[-21.]
+global_step=189252, episodic_return=[-21.]
+global_step=189501, episodic_return=[-21.]
+global_step=189755, episodic_return=[-21.]
+global_step=190251, episodic_return=[-21.]
+global_step=190501, episodic_return=[-21.]
+global_step=190752, episodic_return=[-21.]
+global_step=191000, episodic_return=[-21.]
+global_step=191249, episodic_return=[-21.]
+global_step=191504, episodic_return=[-21.]
+global_step=191760, episodic_return=[-21.]
+global_step=192254, episodic_return=[-21.]
+global_step=192502, episodic_return=[-21.]
+global_step=192749, episodic_return=[-21.]
+global_step=192997, episodic_return=[-21.]
+global_step=193246, episodic_return=[-21.]
+global_step=193499, episodic_return=[-21.]
+global_step=193744, episodic_return=[-21.]
+global_step=193997, episodic_return=[-21.]
+global_step=194248, episodic_return=[-21.]
+global_step=194502, episodic_return=[-21.]
+global_step=194746, episodic_return=[-21.]
+global_step=194997, episodic_return=[-21.]
+global_step=195249, episodic_return=[-21.]
+global_step=195496, episodic_return=[-21.]
+global_step=195747, episodic_return=[-21.]
+global_step=196248, episodic_return=[-21.]
+global_step=196496, episodic_return=[-21.]
+global_step=196739, episodic_return=[-21.]
+global_step=196987, episodic_return=[-21.]
+global_step=197245, episodic_return=[-21.]
+global_step=197496, episodic_return=[-21.]
+global_step=197750, episodic_return=[-21.]
+global_step=197999, episodic_return=[-21.]
+global_step=198251, episodic_return=[-21.]
+global_step=198497, episodic_return=[-21.]
+global_step=198744, episodic_return=[-21.]
+global_step=198989, episodic_return=[-21.]
+global_step=199253, episodic_return=[-21.]
+global_step=199505, episodic_return=[-21.]
+global_step=199751, episodic_return=[-21.]
+global_step=200254, episodic_return=[-21.]
+global_step=200505, episodic_return=[-21.]
+global_step=200755, episodic_return=[-21.]
+global_step=201247, episodic_return=[-21.]
+global_step=201497, episodic_return=[-21.]
+global_step=201739, episodic_return=[-21.]
+global_step=201988, episodic_return=[-21.]
+global_step=202249, episodic_return=[-21.]
+global_step=202495, episodic_return=[-21.]
+global_step=202745, episodic_return=[-21.]
+global_step=202989, episodic_return=[-21.]
+global_step=203253, episodic_return=[-21.]
+global_step=203503, episodic_return=[-21.]
+global_step=203745, episodic_return=[-21.]
+global_step=204253, episodic_return=[-21.]
+global_step=204501, episodic_return=[-21.]
+global_step=204752, episodic_return=[-21.]
+global_step=205244, episodic_return=[-21.]
+global_step=205489, episodic_return=[-21.]
+global_step=205740, episodic_return=[-21.]
+global_step=205989, episodic_return=[-21.]
+global_step=206251, episodic_return=[-21.]
+global_step=206504, episodic_return=[-21.]
+global_step=206752, episodic_return=[-21.]
+global_step=206999, episodic_return=[-21.]
+global_step=207249, episodic_return=[-21.]
+global_step=207494, episodic_return=[-21.]
+global_step=207746, episodic_return=[-21.]
+global_step=207988, episodic_return=[-21.]
+global_step=208251, episodic_return=[-21.]
+global_step=208501, episodic_return=[-21.]
+global_step=208747, episodic_return=[-21.]
+global_step=208996, episodic_return=[-21.]
+global_step=209250, episodic_return=[-21.]
+global_step=209501, episodic_return=[-21.]
+global_step=209753, episodic_return=[-21.]
+global_step=210247, episodic_return=[-21.]
+global_step=210498, episodic_return=[-21.]
+global_step=210744, episodic_return=[-21.]
+global_step=210996, episodic_return=[-21.]
+global_step=211252, episodic_return=[-21.]
+global_step=211503, episodic_return=[-21.]
+global_step=211760, episodic_return=[-21.]
+global_step=212249, episodic_return=[-21.]
+global_step=212515, episodic_return=[-21.]
+global_step=212768, episodic_return=[-21.]
+global_step=213249, episodic_return=[-21.]
+global_step=213497, episodic_return=[-21.]
+global_step=213742, episodic_return=[-21.]
+global_step=213987, episodic_return=[-21.]
+global_step=214249, episodic_return=[-21.]
+global_step=214517, episodic_return=[-21.]
+global_step=214761, episodic_return=[-21.]
+global_step=215250, episodic_return=[-21.]
+global_step=215494, episodic_return=[-21.]
+global_step=215740, episodic_return=[-21.]
+global_step=215988, episodic_return=[-21.]
+global_step=216248, episodic_return=[-21.]
+global_step=216501, episodic_return=[-21.]
+global_step=216753, episodic_return=[-21.]
+global_step=216997, episodic_return=[-21.]
+global_step=217250, episodic_return=[-21.]
+global_step=217498, episodic_return=[-21.]
+global_step=217747, episodic_return=[-21.]
+global_step=217995, episodic_return=[-21.]
+global_step=218246, episodic_return=[-21.]
+global_step=218492, episodic_return=[-21.]
+global_step=218743, episodic_return=[-21.]
+global_step=218992, episodic_return=[-21.]
+global_step=219254, episodic_return=[-21.]
+global_step=219498, episodic_return=[-21.]
+global_step=219746, episodic_return=[-21.]
+global_step=219994, episodic_return=[-21.]
+global_step=220246, episodic_return=[-21.]
+global_step=220491, episodic_return=[-21.]
+global_step=220736, episodic_return=[-21.]
+global_step=220983, episodic_return=[-21.]
+global_step=221251, episodic_return=[-21.]
+step=212748, episodic_return=[-21.]
+global_step=212992, episodic_return=[-21.]
+global_step=213243, episodic_return=[-21.]
+global_step=213495, episodic_return=[-21.]
+global_step=213741, episodic_return=[-21.]
+global_step=213990, episodic_return=[-21.]
+global_step=214260, episodic_return=[-21.]
+global_step=214506, episodic_return=[-21.]
+global_step=214758, episodic_return=[-21.]
+global_step=215250, episodic_return=[-21.]
+global_step=215499, episodic_return=[-21.]
+global_step=215747, episodic_return=[-21.]
+global_step=215996, episodic_return=[-21.]
+global_step=216247, episodic_return=[-21.]
+global_step=216493, episodic_return=[-21.]
+global_step=216744, episodic_return=[-21.]
+global_step=216990, episodic_return=[-21.]
+global_step=217251, episodic_return=[-21.]
+global_step=217502, episodic_return=[-21.]
+global_step=217751, episodic_return=[-21.]
+global_step=218251, episodic_return=[-21.]
+global_step=218504, episodic_return=[-21.]
+global_step=218752, episodic_return=[-21.]
+global_step=219249, episodic_return=[-21.]
+global_step=219498, episodic_return=[-21.]
+global_step=219748, episodic_return=[-21.]
+global_step=219998, episodic_return=[-21.]
+global_step=220252, episodic_return=[-21.]
+global_step=220504, episodic_return=[-21.]
+global_step=220749, episodic_return=[-21.]
+global_step=220997, episodic_return=[-21.]
+global_step=221250, episodic_return=[-21.]
+0)
+***********: (80, 80)
+global_step=128249, episodic_return=[-21.]
+global_step=128497, episodic_return=[-21.]
+global_step=128745, episodic_return=[-21.]
+global_step=128997, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=129253, episodic_return=[-21.]
+global_step=129508, episodic_return=[-21.]
+global_step=129755, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=130253, episodic_return=[-21.]
+global_step=130504, episodic_return=[-21.]
+global_step=130751, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=131248, episodic_return=[-21.]
+global_step=131499, episodic_return=[-21.]
+global_step=131747, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=132251, episodic_return=[-21.]
+global_step=132507, episodic_return=[-21.]
+global_step=132754, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=133251, episodic_return=[-21.]
+global_step=133500, episodic_return=[-21.]
+global_step=133753, episodic_return=[-21.]
+global_step=133998, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=134250, episodic_return=[-21.]
+global_step=134499, episodic_return=[-21.]
+global_step=134748, episodic_return=[-21.]
+global_step=134997, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=135246, episodic_return=[-21.]
+global_step=135497, episodic_return=[-21.]
+global_step=135743, episodic_return=[-21.]
+global_step=135993, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=136251, episodic_return=[-21.]
+global_step=136503, episodic_return=[-21.]
+global_step=136757, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=137244, episodic_return=[-21.]
+global_step=137494, episodic_return=[-21.]
+global_step=137742, episodic_return=[-21.]
+global_step=137995, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=138250, episodic_return=[-21.]
+global_step=138500, episodic_return=[-21.]
+global_step=138751, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=139000, episodic_return=[-21.]
+global_step=139247, episodic_return=[-21.]
+global_step=139496, episodic_return=[-21.]
+global_step=139745, episodic_return=[-21.]
+global_step=139995, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=140252, episodic_return=[-21.]
+global_step=140505, episodic_return=[-21.]
+global_step=140753, episodic_return=[-21.]
+global_step=140999, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=141254, episodic_return=[-21.]
+global_step=141498, episodic_return=[-21.]
+global_step=141750, episodic_return=[-21.]
+global_step=141997, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=142245, episodic_return=[-21.]
+global_step=142492, episodic_return=[-21.]
+global_step=142739, episodic_return=[-21.]
+global_step=142991, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=143253, episodic_return=[-21.]
+global_step=143507, episodic_return=[-21.]
+global_step=143753, episodic_return=[-21.]
+global_step=143995, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=144254, episodic_return=[-21.]
+global_step=144497, episodic_return=[-21.]
+global_step=144750, episodic_return=[-21.]
+global_step=144995, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=145248, episodic_return=[-21.]
+global_step=145492, episodic_return=[-21.]
+global_step=145743, episodic_return=[-21.]
+global_step=145991, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=146253, episodic_return=[-21.]
+global_step=146501, episodic_return=[-21.]
+global_step=146749, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=147000, episodic_return=[-21.]
+global_step=147246, episodic_return=[-21.]
+global_step=147492, episodic_return=[-21.]
+global_step=147743, episodic_return=[-21.]
+global_step=147993, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=148248, episodic_return=[-21.]
+global_step=148494, episodic_return=[-21.]
+global_step=148746, episodic_return=[-21.]
+global_step=148993, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=149243, episodic_return=[-21.]
+global_step=149490, episodic_return=[-21.]
+global_step=149733, episodic_return=[-21.]
+global_step=149979, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=150255, episodic_return=[-21.]
+global_step=150503, episodic_return=[-21.]
+global_step=150753, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=151248, episodic_return=[-21.]
+global_step=151495, episodic_return=[-21.]
+global_step=151745, episodic_return=[-21.]
+global_step=151989, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=152251, episodic_return=[-21.]
+global_step=152502, episodic_return=[-21.]
+global_step=152750, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=153248, episodic_return=[-21.]
+global_step=153497, episodic_return=[-21.]
+global_step=153746, episodic_return=[-21.]
+global_step=153996, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=154245, episodic_return=[-21.]
+global_step=154490, episodic_return=[-21.]
+global_step=154735, episodic_return=[-21.]
+global_step=154987, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=155254, episodic_return=[-21.]
+global_step=155504, episodic_return=[-21.]
+global_step=155748, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=156256, episodic_return=[-21.]
+global_step=156501, episodic_return=[-21.]
+global_step=156752, episodic_return=[-21.]
+global_step=156994, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=157251, episodic_return=[-21.]
+global_step=157501, episodic_return=[-21.]
+global_step=157750, episodic_return=[-21.]
+global_step=157999, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=158256, episodic_return=[-21.]
+global_step=158503, episodic_return=[-21.]
+global_step=158748, episodic_return=[-21.]
+global_step=158998, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=159247, episodic_return=[-21.]
+global_step=159497, episodic_return=[-21.]
+global_step=159742, episodic_return=[-21.]
+global_step=159989, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=160247, episodic_return=[-21.]
+global_step=160494, episodic_return=[-21.]
+global_step=160744, episodic_return=[-21.]
+global_step=160991, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=161252, episodic_return=[-21.]
+global_step=161498, episodic_return=[-21.]
+global_step=161751, episodic_return=[-21.]
+global_step=161996, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=162250, episodic_return=[-21.]
+global_step=162503, episodic_return=[-21.]
+global_step=162749, episodic_return=[-21.]
+global_step=162999, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=163243, episodic_return=[-21.]
+global_step=163495, episodic_return=[-21.]
+global_step=163741, episodic_return=[-21.]
+global_step=163992, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=164246, episodic_return=[-21.]
+global_step=164498, episodic_return=[-21.]
+global_step=164746, episodic_return=[-21.]
+global_step=164993, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=165251, episodic_return=[-21.]
+global_step=165507, episodic_return=[-21.]
+global_step=165758, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=166249, episodic_return=[-21.]
+global_step=166492, episodic_return=[-21.]
+global_step=166744, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=167248, episodic_return=[-21.]
+global_step=167499, episodic_return=[-21.]
+global_step=167753, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=168000, episodic_return=[-21.]
+global_step=168245, episodic_return=[-21.]
+global_step=168495, episodic_return=[-21.]
+global_step=168742, episodic_return=[-21.]
+global_step=168994, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=169246, episodic_return=[-21.]
+global_step=169493, episodic_return=[-21.]
+global_step=169749, episodic_return=[-21.]
+global_step=169996, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=170250, episodic_return=[-21.]
+global_step=170497, episodic_return=[-21.]
+global_step=170749, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=171000, episodic_return=[-21.]
+global_step=171247, episodic_return=[-21.]
+global_step=171492, episodic_return=[-21.]
+global_step=171742, episodic_return=[-21.]
+global_step=171990, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=172251, episodic_return=[-21.]
+global_step=172503, episodic_return=[-21.]
+global_step=172744, episodic_return=[-21.]
+global_step=172993, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=173250, episodic_return=[-21.]
+global_step=173497, episodic_return=[-21.]
+global_step=173743, episodic_return=[-21.]
+global_step=173994, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=174247, episodic_return=[-21.]
+global_step=174497, episodic_return=[-21.]
+global_step=174750, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=175248, episodic_return=[-21.]
+global_step=175497, episodic_return=[-21.]
+global_step=175740, episodic_return=[-21.]
+global_step=175990, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=176250, episodic_return=[-21.]
+global_step=176499, episodic_return=[-21.]
+global_step=176745, episodic_return=[-21.]
+global_step=176997, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=177246, episodic_return=[-21.]
+global_step=177495, episodic_return=[-21.]
+global_step=177744, episodic_return=[-21.]
+global_step=177988, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=178250, episodic_return=[-21.]
+global_step=178495, episodic_return=[-21.]
+global_step=178740, episodic_return=[-21.]
+global_step=178987, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=179254, episodic_return=[-21.]
+global_step=179504, episodic_return=[-21.]
+global_step=179753, episodic_return=[-21.]
+global_step=179999, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=180252, episodic_return=[-21.]
+global_step=180504, episodic_return=[-21.]
+global_step=180758, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=181253, episodic_return=[-21.]
+global_step=181500, episodic_return=[-21.]
+global_step=181747, episodic_return=[-21.]
+global_step=181997, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=182246, episodic_return=[-21.]
+global_step=182492, episodic_return=[-21.]
+global_step=182739, episodic_return=[-21.]
+global_step=182987, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=183249, episodic_return=[-21.]
+global_step=183492, episodic_return=[-21.]
+global_step=183739, episodic_return=[-21.]
+global_step=183991, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=184255, episodic_return=[-21.]
+global_step=184506, episodic_return=[-21.]
+global_step=184754, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=185247, episodic_return=[-21.]
+global_step=185494, episodic_return=[-21.]
+global_step=185737, episodic_return=[-21.]
+global_step=185987, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=186250, episodic_return=[-21.]
+global_step=186500, episodic_return=[-21.]
+global_step=186752, episodic_return=[-21.]
+global_step=186999, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=187246, episodic_return=[-21.]
+global_step=187493, episodic_return=[-21.]
+global_step=187741, episodic_return=[-21.]
+global_step=187985, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=188245, episodic_return=[-21.]
+global_step=188491, episodic_return=[-21.]
+global_step=188738, episodic_return=[-21.]
+global_step=188991, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=189247, episodic_return=[-21.]
+global_step=189500, episodic_return=[-21.]
+global_step=189751, episodic_return=[-21.]
+global_step=189998, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=190248, episodic_return=[-21.]
+global_step=190495, episodic_return=[-21.]
+global_step=190743, episodic_return=[-21.]
+global_step=190991, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=191254, episodic_return=[-21.]
+global_step=191504, episodic_return=[-21.]
+global_step=191753, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=192252, episodic_return=[-21.]
+global_step=192504, episodic_return=[-21.]
+global_step=192750, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=193000, episodic_return=[-21.]
+global_step=193244, episodic_return=[-21.]
+global_step=193488, episodic_return=[-21.]
+global_step=193736, episodic_return=[-21.]
+global_step=193989, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=194248, episodic_return=[-21.]
+global_step=194497, episodic_return=[-21.]
+global_step=194746, episodic_return=[-21.]
+global_step=194993, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=195247, episodic_return=[-21.]
+global_step=195497, episodic_return=[-21.]
+global_step=195751, episodic_return=[-21.]
+global_step=195998, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=196249, episodic_return=[-21.]
+global_step=196498, episodic_return=[-21.]
+global_step=196751, episodic_return=[-21.]
+global_step=196997, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=197250, episodic_return=[-21.]
+global_step=197500, episodic_return=[-21.]
+global_step=197750, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=198249, episodic_return=[-21.]
+global_step=198499, episodic_return=[-21.]
+global_step=198743, episodic_return=[-21.]
+global_step=198996, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=199248, episodic_return=[-21.]
+global_step=199499, episodic_return=[-21.]
+global_step=199748, episodic_return=[-21.]
+global_step=199994, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=200251, episodic_return=[-21.]
+global_step=200504, episodic_return=[-21.]
+global_step=200749, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=201252, episodic_return=[-21.]
+global_step=201503, episodic_return=[-21.]
+global_step=201755, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=202250, episodic_return=[-21.]
+global_step=202502, episodic_return=[-21.]
+global_step=202747, episodic_return=[-21.]
+global_step=202995, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=203241, episodic_return=[-21.]
+global_step=203485, episodic_return=[-21.]
+global_step=203731, episodic_return=[-21.]
+global_step=203983, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=204248, episodic_return=[-21.]
+global_step=204502, episodic_return=[-21.]
+global_step=204749, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=205000, episodic_return=[-21.]
+global_step=205249, episodic_return=[-21.]
+global_step=205495, episodic_return=[-21.]
+global_step=205744, episodic_return=[-21.]
+global_step=205994, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=206251, episodic_return=[-21.]
+global_step=206496, episodic_return=[-21.]
+global_step=206745, episodic_return=[-21.]
+global_step=206992, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=207247, episodic_return=[-21.]
+global_step=207497, episodic_return=[-21.]
+global_step=207752, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=208000, episodic_return=[-21.]
+global_step=208251, episodic_return=[-21.]
+global_step=208497, episodic_return=[-21.]
+global_step=208740, episodic_return=[-21.]
+global_step=208989, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=209251, episodic_return=[-21.]
+global_step=209496, episodic_return=[-21.]
+global_step=209747, episodic_return=[-21.]
+global_step=209991, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=210248, episodic_return=[-21.]
+global_step=210494, episodic_return=[-21.]
+global_step=210740, episodic_return=[-21.]
+global_step=210991, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=211254, episodic_return=[-21.]
+global_step=211503, episodic_return=[-21.]
+global_step=211751, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=212251, episodic_return=[-21.]
+global_step=212502, episodic_return=[-21.]
+global_step=212748, episodic_return=[-21.]
+global_step=212994, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=213246, episodic_return=[-21.]
+global_step=213495, episodic_return=[-21.]
+global_step=213746, episodic_return=[-21.]
+global_step=213998, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=214250, episodic_return=[-21.]
+global_step=214500, episodic_return=[-21.]
+global_step=214750, episodic_return=[-21.]
+global_step=214999, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=215246, episodic_return=[-21.]
+global_step=215496, episodic_return=[-21.]
+global_step=215747, episodic_return=[-21.]
+global_step=215994, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=216248, episodic_return=[-21.]
+global_step=216496, episodic_return=[-21.]
+global_step=216748, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=217000, episodic_return=[-21.]
+global_step=217253, episodic_return=[-21.]
+global_step=217500, episodic_return=[-21.]
+global_step=217750, episodic_return=[-21.]
+global_step=217997, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=218249, episodic_return=[-21.]
+global_step=218503, episodic_return=[-21.]
+global_step=218752, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=219000, episodic_return=[-21.]
+global_step=219256, episodic_return=[-21.]
+global_step=219501, episodic_return=[-21.]
+global_step=219752, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=220000, episodic_return=[-21.]
+global_step=220251, episodic_return=[-21.]
+global_step=220501, episodic_return=[-21.]
+global_step=220750, episodic_return=[-21.]
+global_step=220995, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=221250, episodic_return=[-21.]
+global_step=221496, episodic_return=[-21.]
+global_step=221740, episodic_return=[-21.]
+global_step=221993, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=222248, episodic_return=[-21.]
+global_step=222498, episodic_return=[-21.]
+global_step=222748, episodic_return=[-21.]
+global_step=222998, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=223253, episodic_return=[-21.]
+global_step=223501, episodic_return=[-21.]
+global_step=223750, episodic_return=[-21.]
+global_step=223994, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=224241, episodic_return=[-21.]
+global_step=224486, episodic_return=[-21.]
+global_step=224732, episodic_return=[-21.]
+global_step=224982, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=225250, episodic_return=[-21.]
+global_step=225493, episodic_return=[-21.]
+global_step=225740, episodic_return=[-21.]
+global_step=225992, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=226244, episodic_return=[-21.]
+global_step=226498, episodic_return=[-21.]
+global_step=226746, episodic_return=[-21.]
+global_step=226995, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=227252, episodic_return=[-21.]
+global_step=227502, episodic_return=[-21.]
+global_step=227750, episodic_return=[-21.]
+global_step=227998, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=228252, episodic_return=[-21.]
+global_step=228506, episodic_return=[-21.]
+global_step=228755, episodic_return=[-21.]
+global_step=228997, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=229249, episodic_return=[-21.]
+global_step=229501, episodic_return=[-21.]
+global_step=229751, episodic_return=[-21.]
+global_step=229999, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=230251, episodic_return=[-21.]
+global_step=230495, episodic_return=[-21.]
+global_step=230744, episodic_return=[-21.]
+global_step=230990, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=231253, episodic_return=[-21.]
+global_step=231503, episodic_return=[-21.]
+global_step=231758, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=232248, episodic_return=[-21.]
+global_step=232500, episodic_return=[-21.]
+global_step=232754, episodic_return=[-21.]
+global_step=232995, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=233247, episodic_return=[-21.]
+global_step=233497, episodic_return=[-21.]
+global_step=233749, episodic_return=[-21.]
+global_step=233995, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=234247, episodic_return=[-21.]
+global_step=234493, episodic_return=[-21.]
+global_step=234746, episodic_return=[-21.]
+global_step=234994, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=235251, episodic_return=[-21.]
+global_step=235497, episodic_return=[-21.]
+global_step=235744, episodic_return=[-21.]
+global_step=235987, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=236246, episodic_return=[-21.]
+global_step=236492, episodic_return=[-21.]
+global_step=236743, episodic_return=[-21.]
+global_step=236992, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=237253, episodic_return=[-21.]
+global_step=237500, episodic_return=[-21.]
+global_step=237749, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=238249, episodic_return=[-21.]
+global_step=238499, episodic_return=[-21.]
+global_step=238747, episodic_return=[-21.]
+global_step=238993, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=239246, episodic_return=[-21.]
+global_step=239495, episodic_return=[-21.]
+global_step=239744, episodic_return=[-21.]
+global_step=239994, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=240248, episodic_return=[-21.]
+global_step=240492, episodic_return=[-21.]
+global_step=240746, episodic_return=[-21.]
+global_step=240991, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=241252, episodic_return=[-21.]
+global_step=241507, episodic_return=[-21.]
+global_step=241757, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=242240, episodic_return=[-21.]
+global_step=242489, episodic_return=[-21.]
+global_step=242738, episodic_return=[-21.]
+global_step=242985, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=243248, episodic_return=[-21.]
+global_step=243490, episodic_return=[-21.]
+global_step=243738, episodic_return=[-21.]
+global_step=243987, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=244246, episodic_return=[-21.]
+global_step=244500, episodic_return=[-21.]
+global_step=244749, episodic_return=[-21.]
+global_step=244999, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=245250, episodic_return=[-21.]
+global_step=245503, episodic_return=[-21.]
+global_step=245758, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=246243, episodic_return=[-21.]
+global_step=246489, episodic_return=[-21.]
+global_step=246736, episodic_return=[-21.]
+global_step=246980, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=247246, episodic_return=[-21.]
+global_step=247492, episodic_return=[-21.]
+global_step=247743, episodic_return=[-21.]
+global_step=247993, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=248248, episodic_return=[-21.]
+global_step=248497, episodic_return=[-21.]
+global_step=248748, episodic_return=[-21.]
+global_step=248996, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=249250, episodic_return=[-21.]
+global_step=249499, episodic_return=[-21.]
+global_step=249749, episodic_return=[-21.]
+global_step=249998, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=250253, episodic_return=[-21.]
+global_step=250500, episodic_return=[-21.]
+global_step=250746, episodic_return=[-21.]
+global_step=250997, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=251252, episodic_return=[-21.]
+global_step=251508, episodic_return=[-21.]
+global_step=251760, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=252247, episodic_return=[-21.]
+global_step=252493, episodic_return=[-21.]
+global_step=252740, episodic_return=[-21.]
+global_step=252996, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=253254, episodic_return=[-21.]
+global_step=253503, episodic_return=[-21.]
+global_step=253752, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=254246, episodic_return=[-21.]
+global_step=254492, episodic_return=[-21.]
+global_step=254738, episodic_return=[-21.]
+global_step=254985, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=255247, episodic_return=[-21.]
+global_step=255498, episodic_return=[-21.]
+global_step=255747, episodic_return=[-21.]
+global_step=255999, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=256245, episodic_return=[-21.]
+global_step=256497, episodic_return=[-21.]
+global_step=256747, episodic_return=[-21.]
+global_step=256998, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=257250, episodic_return=[-21.]
+global_step=257499, episodic_return=[-21.]
+global_step=257748, episodic_return=[-21.]
+global_step=257996, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=258253, episodic_return=[-21.]
+global_step=258500, episodic_return=[-21.]
+global_step=258754, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=259245, episodic_return=[-21.]
+global_step=259494, episodic_return=[-21.]
+global_step=259745, episodic_return=[-21.]
+global_step=259993, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=260252, episodic_return=[-21.]
+global_step=260500, episodic_return=[-21.]
+global_step=260751, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=261251, episodic_return=[-21.]
+global_step=261498, episodic_return=[-21.]
+global_step=261745, episodic_return=[-21.]
+global_step=261992, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=262246, episodic_return=[-21.]
+global_step=262493, episodic_return=[-21.]
+global_step=262737, episodic_return=[-21.]
+global_step=262990, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=263246, episodic_return=[-21.]
+global_step=263493, episodic_return=[-21.]
+global_step=263738, episodic_return=[-21.]
+global_step=263989, episodic_return=[-21.]
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+***********: (80, 80)
+global_step=264244, episodic_return=[-21.]
+global_step=264493, episodic_return=[-21.]
